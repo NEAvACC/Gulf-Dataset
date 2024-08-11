@@ -1,302 +1,219 @@
 <Airspace>
-
-  <!--Airports-->
-
-  <Airports>
-    <Airport Elevation="1512" Name="HJJJ" Position="+04.871944+031.601111">
-      <Runway Name="13" Position="+04.883106+031.588033" />
-      <Runway Name="31" Position="+04.865006+031.609381" />
-    </Airport>
-    <Airport Elevation="1290" Name="HJMK" Position="+09.558889+031.652222">
-      <Runway Name="04" Position="+09.552528+031.645922" />
-      <Runway Name="22" Position="+09.565417+031.658544" />
-    </Airport>
-    <Airport Elevation="1527" Name="HJWW" Position="+07.725833+027.975000">
-      <Runway Name="09" Position="+07.725825+027.963436" />
-      <Runway Name="27" Position="+07.725658+027.986075" />
-    </Airport>
-    <Airport Elevation="1245" Name="HKFG" Position="+03.480361+035.834167">
-      <Runway Name="12" Position="+03.493978+035.832642" />
-      <Runway Name="30" Position="+03.489436+035.840483" />
-    </Airport>
-    <Airport Elevation="1805" Name="HKLG" Position="+04.330278+035.700833">
-      <Runway Name="12" Position="+04.330278+035.700833" />
-      <Runway Name="30" Position="+04.330278+035.700833" />
-    </Airport>
-    <Airport Elevation="2115" Name="HKLK" Position="+04.204094+034.348192">
-      <Runway Name="09" Position="+04.204331+034.340172" />
-      <Runway Name="27" Position="+04.204114+034.347589" />
-    </Airport>
-    <Airport Elevation="1197" Name="HSAT" Position="+17.709722+034.057222">
-      <Runway Name="01" Position="+17.701678+034.054625" />
-      <Runway Name="19" Position="+17.717308+034.059300" />
-    </Airport>
-    <Airport Elevation="773" Name="HSDN" Position="+19.152500+030.430278">
-      <Runway Name="17" Position="+19.167353+030.428775" />
-      <Runway Name="35" Position="+19.140372+030.431417" />
-    </Airport>
-    <Airport Elevation="1584" Name="HSDZ" Position="+11.786111+034.336667">
-      <Runway Name="17" Position="+11.797089+034.334719" />
-      <Runway Name="35" Position="+11.772575+034.338931" />
-    </Airport>
-    <Airport Elevation="2402" Name="HSFS" Position="+13.615000+025.324722">
-      <Runway Name="05" Position="+13.606781+025.314008" />
-      <Runway Name="23" Position="+13.623214+025.335572" />
-    </Airport>
-    <Airport Elevation="1671" Name="HSKA" Position="+15.387500+036.328889">
-      <Runway Name="02" Position="+15.375419+036.323803" />
-      <Runway Name="20" Position="+15.396353+036.332536" />
-    </Airport>
-    <Airport Elevation="1848" Name="HSLI" Position="+11.137222+029.699167">
-      <Runway Name="06" Position="+11.132719+029.690711" />
-      <Runway Name="24" Position="+11.143394+029.711506" />
-    </Airport>
-    <Airport Elevation="899" Name="HSMN" Position="+18.443056+031.843611">
-      <Runway Name="02" Position="+18.426422+031.836092" />
-      <Runway Name="20" Position="+18.459756+031.851181" />
-    </Airport>
-    <Airport Elevation="2095" Name="HSNN" Position="+12.053611+024.956111">
-      <Runway Name="04" Position="+12.043303+024.946997" />
-      <Runway Name="22" Position="+12.063642+024.965233" />
-    </Airport>
-    <Airport Elevation="1928" Name="HSOB" Position="+13.152778+030.232778">
-      <Runway Name="01" Position="+13.139800+030.230736" />
-      <Runway Name="19" Position="+13.166567+030.234756" />
-    </Airport>
-    <Airport Elevation="135" Name="HSPN" Position="+19.433611+037.234167">
-      <Runway Name="16" Position="+19.444644+037.231486" />
-      <Runway Name="34" Position="+19.422600+037.236672" />
-    </Airport>
-    <Airport Elevation="2637" Name="HSSG" Position="+13.477500+022.537222">
-      <Runway Name="04" Position="+13.467633+022.528206" />
-      <Runway Name="22" Position="+13.487764+022.546714" />
-    </Airport>
-    <Airport Elevation="1271" Name="HSSK" Position="+15.590278+032.553056">
-      <Runway Name="18" Position="+15.602975+032.553039" />
-      <Runway Name="36" Position="+15.576050+032.553289" />
-    </Airport>
-    <Airport Elevation="933" Name="HSSW" Position="+21.802778+031.521944">
-      <Runway Name="06" Position="+21.798481+031.513486" />
-      <Runway Name="24" Position="+21.807114+031.530483" />
-    </Airport>
-  </Airports>
   <SystemRunways>
-    <Airports>
-      <Airport Name="HJJJ">
-        <Runway Name="13" DataRunway="13">
-          <SID Name="ATUG1B" />
-          <SID Name="EGBI1B" />
-          <SID Name="EPLA1B" />
-          <SID Name="IMDU1B" />
-          <SID Name="KABL1B" />
-          <SID Name="OVEL1B" />
-          <SID Name="SAGB1B" />
-          <SID Name="TAPO1B" />
-          <STAR Name="ATUG1A" />
-          <STAR Name="EGBI1A" />
-          <STAR Name="EPLA1A" />
-          <STAR Name="IMDU1A" />
-          <STAR Name="KABL1A" />
-          <STAR Name="OVEL1A" />
-          <STAR Name="SAGB1A" />
-          <STAR Name="TAPO1A" />
-        </Runway>
-        <Runway Name="31" DataRunway="31">
-          <SID Name="ATUG1D" />
-          <SID Name="EGBI1D" />
-          <SID Name="EPLA1D" />
-          <SID Name="IMDU1D" />
-          <SID Name="KABL1D" />
-          <SID Name="OVEL1D" />
-          <SID Name="SAGB1D" />
-          <SID Name="TAPO1D" />
-          <STAR Name="ATUG1C" />
-          <STAR Name="EGBI1C" />
-          <STAR Name="EPLA1C" />
-          <STAR Name="IMDU1C" />
-          <STAR Name="KABL1C" />
-          <STAR Name="OVEL1C" />
-          <STAR Name="SAGB1C" />
-          <STAR Name="TAPO1C" />
-        </Runway>
-      </Airport>
-      <Airport Name="HSFS">
-        <Runway Name="05" DataRunway="05">
-          <SID Name="ASMA1E" />
-          <SID Name="IMLO1E" />
-          <SID Name="IVOS1E" />
-          <SID Name="RAMG1E" />
-          <SID Name="ASMA1A" />
-          <SID Name="IMLO1A" />
-          <SID Name="IVOS1A" />
-          <SID Name="RAMG1A" />
-          <STAR Name="ASMA1E" />
-          <STAR Name="IMLO1E" />
-          <STAR Name="IVOS1E" />
-          <STAR Name="RAMG1E" />
-          <STAR Name="ASMA1A" />
-          <STAR Name="IMLO1A" />
-          <STAR Name="IVOS1A" />
-          <STAR Name="RAMG1A" />
-        </Runway>
-        <Runway Name="23" DataRunway="23">
-          <SID Name="ASMA1W" />
-          <SID Name="IMLO1W" />
-          <SID Name="IVOS1W" />
-          <SID Name="RAMG1W" />
-          <SID Name="ASMA1B" />
-          <SID Name="IMLO1B" />
-          <SID Name="IVOS1B" />
-          <SID Name="RAMG1B" />
-          <STAR Name="ASMA1W" />
-          <STAR Name="IMLO1W" />
-          <STAR Name="IVOS1W" />
-          <STAR Name="RAMG1W" />
-          <STAR Name="ASMA1B" />
-          <STAR Name="IMLO1B" />
-          <STAR Name="IVOS1B" />
-          <STAR Name="RAMG1B" />
-        </Runway>
-      </Airport>
-      <Airport Name="HSMN">
-        <Runway Name="02" DataRunway="02">
-          <SID Name="GERA1N" />
-          <SID Name="KURT1N" />
-          <SID Name="ORKA1N" />
-          <SID Name="ROTA1N" />
-          <SID Name="SOLE1N" />
-          <SID Name="GERA1A" />
-          <SID Name="KURT1A" />
-          <SID Name="ORKA1A" />
-          <SID Name="ROTA1A" />
-          <SID Name="SOLE1A" />
-          <STAR Name="GERA1N" />
-          <STAR Name="KURT1N" />
-          <STAR Name="ORKA1N" />
-          <STAR Name="ROTA1N" />
-          <STAR Name="SOLE1N" />
-          <STAR Name="GERA1A" />
-          <STAR Name="KURT1A" />
-          <STAR Name="ORKA1A" />
-          <STAR Name="ROTA1A" />
-          <STAR Name="SOLE1A" />
-        </Runway>
-        <Runway Name="20" DataRunway="20">
-          <SID Name="GERA1S" />
-          <SID Name="KURT1S" />
-          <SID Name="ORKA1S" />
-          <SID Name="ROTA1S" />
-          <SID Name="SOLE1S" />
-          <SID Name="GERA1B" />
-          <SID Name="KURT1B" />
-          <SID Name="ORKA1B" />
-          <SID Name="ROTA1B" />
-          <SID Name="SOLE1B" />
-          <STAR Name="GERA1S" />
-          <STAR Name="KURT1S" />
-          <STAR Name="ORKA1S" />
-          <STAR Name="ROTA1S" />
-          <STAR Name="SOLE1S" />
-          <STAR Name="GERA1B" />
-          <STAR Name="KURT1B" />
-          <STAR Name="ORKA1B" />
-          <STAR Name="ROTA1B" />
-          <STAR Name="SOLE1B" />
-        </Runway>
-      </Airport>
-      <Airport Name="HSPN">
-        <Runway Name="16" DataRunway="16">
-          <SID Name="DAPE1S" />
-          <SID Name="GEPI1S" />
-          <SID Name="NABU1S" />
-          <SID Name="PEKA1S" />
-          <SID Name="PURA1S" />
-          <SID Name="SENK1S" />
-          <SID Name="DAPE1B" />
-          <SID Name="GEPI1B" />
-          <SID Name="NABU1B" />
-          <SID Name="PEKA1B" />
-          <SID Name="PURA1B" />
-          <SID Name="SENK1B" />
-          <STAR Name="ALKET1" />
-          <STAR Name="DAPEN1" />
-          <STAR Name="NABUT1" />
-          <STAR Name="PEKAB1" />
-          <STAR Name="PURAG1" />
-          <STAR Name="SENKA1" />
-          <STAR Name="ALKE1B" />
-          <STAR Name="DAPE1B" />
-          <STAR Name="NABU1B" />
-          <STAR Name="PEKA1B" />
-          <STAR Name="PURA1B" />
-          <STAR Name="SENK1B" />
-        </Runway>
-        <Runway Name="34" DataRunway="34">
-          <SID Name="DAPE1N" />
-          <SID Name="GEPI1N" />
-          <SID Name="NABU1N" />
-          <SID Name="PEKA1N" />
-          <SID Name="PURA1N" />
-          <SID Name="SENK1N" />
-          <SID Name="DAPE1A" />
-          <SID Name="GEPI1A" />
-          <SID Name="NABU1A" />
-          <SID Name="PEKA1A" />
-          <SID Name="PURA1A" />
-          <SID Name="SENK1A" />
-          <STAR Name="ALKET1" />
-          <STAR Name="DAPEN1" />
-          <STAR Name="NABUT1" />
-          <STAR Name="PEKAB1" />
-          <STAR Name="PURAG1" />
-          <STAR Name="SENKA1" />
-          <STAR Name="ALKE1A" />
-          <STAR Name="DAPE1A" />
-          <STAR Name="NABU1A" />
-          <STAR Name="PEKA1A" />
-          <STAR Name="PURA1A" />
-          <STAR Name="SENK1A" />
-        </Runway>
-      </Airport>
-      <Airport Name="HSSK">
-        <Runway Name="18" DataRunway="18">
-          <SID Name="GERA1A" />
-          <SID Name="KARE1A" />
-          <SID Name="KUVT1A" />
-          <SID Name="PASI1A" />
-          <SID Name="RADK1A" />
-          <SID Name="SIVI1A" />
-          <SID Name="SODA1A" />
-          <SID Name="TABK1A" />
-          <SID Name="TABK1C" />
-          <STAR Name="GERA1A" />
-          <STAR Name="KARE1A" />
-          <STAR Name="KUVT1A" />
-          <STAR Name="PASI1A" />
-          <STAR Name="RADK1A" />
-          <STAR Name="SIVI1A" />
-          <STAR Name="SODA1A" />
-          <STAR Name="TABK1A" />
-        </Runway>
-        <Runway Name="36" DataRunway="36">
-          <SID Name="GERA2B" />
-          <SID Name="KARE2B" />
-          <SID Name="KUVT2B" />
-          <SID Name="PASI2B" />
-          <SID Name="RADK2B" />
-          <SID Name="SIVI2B" />
-          <SID Name="SODA2B" />
-          <STAR Name="GERA1B" />
-          <STAR Name="KARE1B" />
-          <STAR Name="KUVT1B" />
-          <STAR Name="PASI1B" />
-          <STAR Name="RADK1B" />
-          <STAR Name="SIVI1B" />
-          <STAR Name="SODA1B" />
-          <STAR Name="TABK1B" />
-        </Runway>
-      </Airport>
-    </Airports>
+    <Airport Name="HJJJ">
+      <Runway Name="13" DataRunway="13">
+        <SID Name="ATUG1B" />
+        <SID Name="EGBI1B" />
+        <SID Name="EPLA1B" />
+        <SID Name="IMDU1B" />
+        <SID Name="KABL1B" />
+        <SID Name="OVEL1B" />
+        <SID Name="SAGB1B" />
+        <SID Name="TAPO1B" />
+        <STAR Name="ATUG1A" />
+        <STAR Name="EGBI1A" />
+        <STAR Name="EPLA1A" />
+        <STAR Name="IMDU1A" />
+        <STAR Name="KABL1A" />
+        <STAR Name="OVEL1A" />
+        <STAR Name="SAGB1A" />
+        <STAR Name="TAPO1A" />
+      </Runway>
+      <Runway Name="31" DataRunway="31">
+        <SID Name="ATUG1D" />
+        <SID Name="EGBI1D" />
+        <SID Name="EPLA1D" />
+        <SID Name="IMDU1D" />
+        <SID Name="KABL1D" />
+        <SID Name="OVEL1D" />
+        <SID Name="SAGB1D" />
+        <SID Name="TAPO1D" />
+        <STAR Name="ATUG1C" />
+        <STAR Name="EGBI1C" />
+        <STAR Name="EPLA1C" />
+        <STAR Name="IMDU1C" />
+        <STAR Name="KABL1C" />
+        <STAR Name="OVEL1C" />
+        <STAR Name="SAGB1C" />
+        <STAR Name="TAPO1C" />
+      </Runway>
+    </Airport>
+    <Airport Name="HSFS">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="ASMA1E" />
+        <SID Name="IMLO1E" />
+        <SID Name="IVOS1E" />
+        <SID Name="RAMG1E" />
+        <SID Name="ASMA1A" />
+        <SID Name="IMLO1A" />
+        <SID Name="IVOS1A" />
+        <SID Name="RAMG1A" />
+        <STAR Name="ASMA1E" />
+        <STAR Name="IMLO1E" />
+        <STAR Name="IVOS1E" />
+        <STAR Name="RAMG1E" />
+        <STAR Name="ASMA1A" />
+        <STAR Name="IMLO1A" />
+        <STAR Name="IVOS1A" />
+        <STAR Name="RAMG1A" />
+      </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="ASMA1W" />
+        <SID Name="IMLO1W" />
+        <SID Name="IVOS1W" />
+        <SID Name="RAMG1W" />
+        <SID Name="ASMA1B" />
+        <SID Name="IMLO1B" />
+        <SID Name="IVOS1B" />
+        <SID Name="RAMG1B" />
+        <STAR Name="ASMA1W" />
+        <STAR Name="IMLO1W" />
+        <STAR Name="IVOS1W" />
+        <STAR Name="RAMG1W" />
+        <STAR Name="ASMA1B" />
+        <STAR Name="IMLO1B" />
+        <STAR Name="IVOS1B" />
+        <STAR Name="RAMG1B" />
+      </Runway>
+    </Airport>
+    <Airport Name="HSMN">
+      <Runway Name="02" DataRunway="02">
+        <SID Name="GERA1N" />
+        <SID Name="KURT1N" />
+        <SID Name="ORKA1N" />
+        <SID Name="ROTA1N" />
+        <SID Name="SOLE1N" />
+        <SID Name="GERA1A" />
+        <SID Name="KURT1A" />
+        <SID Name="ORKA1A" />
+        <SID Name="ROTA1A" />
+        <SID Name="SOLE1A" />
+        <STAR Name="GERA1N" />
+        <STAR Name="KURT1N" />
+        <STAR Name="ORKA1N" />
+        <STAR Name="ROTA1N" />
+        <STAR Name="SOLE1N" />
+        <STAR Name="GERA1A" />
+        <STAR Name="KURT1A" />
+        <STAR Name="ORKA1A" />
+        <STAR Name="ROTA1A" />
+        <STAR Name="SOLE1A" />
+      </Runway>
+      <Runway Name="20" DataRunway="20">
+        <SID Name="GERA1S" />
+        <SID Name="KURT1S" />
+        <SID Name="ORKA1S" />
+        <SID Name="ROTA1S" />
+        <SID Name="SOLE1S" />
+        <SID Name="GERA1B" />
+        <SID Name="KURT1B" />
+        <SID Name="ORKA1B" />
+        <SID Name="ROTA1B" />
+        <SID Name="SOLE1B" />
+        <STAR Name="GERA1S" />
+        <STAR Name="KURT1S" />
+        <STAR Name="ORKA1S" />
+        <STAR Name="ROTA1S" />
+        <STAR Name="SOLE1S" />
+        <STAR Name="GERA1B" />
+        <STAR Name="KURT1B" />
+        <STAR Name="ORKA1B" />
+        <STAR Name="ROTA1B" />
+        <STAR Name="SOLE1B" />
+      </Runway>
+    </Airport>
+    <Airport Name="HSPN">
+      <Runway Name="16" DataRunway="16">
+        <SID Name="DAPE1S" />
+        <SID Name="GEPI1S" />
+        <SID Name="NABU1S" />
+        <SID Name="PEKA1S" />
+        <SID Name="PURA1S" />
+        <SID Name="SENK1S" />
+        <SID Name="DAPE1B" />
+        <SID Name="GEPI1B" />
+        <SID Name="NABU1B" />
+        <SID Name="PEKA1B" />
+        <SID Name="PURA1B" />
+        <SID Name="SENK1B" />
+        <STAR Name="ALKET1" />
+        <STAR Name="DAPEN1" />
+        <STAR Name="NABUT1" />
+        <STAR Name="PEKAB1" />
+        <STAR Name="PURAG1" />
+        <STAR Name="SENKA1" />
+        <STAR Name="ALKE1B" />
+        <STAR Name="DAPE1B" />
+        <STAR Name="NABU1B" />
+        <STAR Name="PEKA1B" />
+        <STAR Name="PURA1B" />
+        <STAR Name="SENK1B" />
+      </Runway>
+      <Runway Name="34" DataRunway="34">
+        <SID Name="DAPE1N" />
+        <SID Name="GEPI1N" />
+        <SID Name="NABU1N" />
+        <SID Name="PEKA1N" />
+        <SID Name="PURA1N" />
+        <SID Name="SENK1N" />
+        <SID Name="DAPE1A" />
+        <SID Name="GEPI1A" />
+        <SID Name="NABU1A" />
+        <SID Name="PEKA1A" />
+        <SID Name="PURA1A" />
+        <SID Name="SENK1A" />
+        <STAR Name="ALKET1" />
+        <STAR Name="DAPEN1" />
+        <STAR Name="NABUT1" />
+        <STAR Name="PEKAB1" />
+        <STAR Name="PURAG1" />
+        <STAR Name="SENKA1" />
+        <STAR Name="ALKE1A" />
+        <STAR Name="DAPE1A" />
+        <STAR Name="NABU1A" />
+        <STAR Name="PEKA1A" />
+        <STAR Name="PURA1A" />
+        <STAR Name="SENK1A" />
+      </Runway>
+    </Airport>
+    <Airport Name="HSSK">
+      <Runway Name="18" DataRunway="18">
+        <SID Name="GERA1A" />
+        <SID Name="KARE1A" />
+        <SID Name="KUVT1A" />
+        <SID Name="PASI1A" />
+        <SID Name="RADK1A" />
+        <SID Name="SIVI1A" />
+        <SID Name="SODA1A" />
+        <SID Name="TABK1A" />
+        <SID Name="TABK1C" />
+        <STAR Name="GERA1A" />
+        <STAR Name="KARE1A" />
+        <STAR Name="KUVT1A" />
+        <STAR Name="PASI1A" />
+        <STAR Name="RADK1A" />
+        <STAR Name="SIVI1A" />
+        <STAR Name="SODA1A" />
+        <STAR Name="TABK1A" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <SID Name="GERA2B" />
+        <SID Name="KARE2B" />
+        <SID Name="KUVT2B" />
+        <SID Name="PASI2B" />
+        <SID Name="RADK2B" />
+        <SID Name="SIVI2B" />
+        <SID Name="SODA2B" />
+        <STAR Name="GERA1B" />
+        <STAR Name="KARE1B" />
+        <STAR Name="KUVT1B" />
+        <STAR Name="PASI1B" />
+        <STAR Name="RADK1B" />
+        <STAR Name="SIVI1B" />
+        <STAR Name="SODA1B" />
+        <STAR Name="TABK1B" />
+      </Runway>
+    </Airport>
   </SystemRunways>
 
   <!--Waypoints-->
@@ -1819,4 +1736,109 @@
       <Route Runway="36">TABKO/SOGEX/SS516/SS510/SS508/BOROG/SS504/SS502/SS504</Route>
     </STAR>
   </SIDSTARs>
+
+  <Airports>
+    <!-- Airports with Runways -->
+    <Airport ICAO="HJJJ" FullName="Juba" Position="+04.8710+031.6011">
+      <Runway Name="13" Position="+04.8831+031.5872" />
+      <Runway Name="31" Position="+04.8650+031.6094" />
+    </Airport>
+    <Airport ICAO="HJMK" FullName="Malakal" Position="+09.5590+031.6522">
+      <Runway Name="04" Position="+09.5525+031.6459" />
+      <Runway Name="22" Position="+09.5654+031.6585" />
+    </Airport>
+    <Airport ICAO="HJRB" FullName="Rumbek" Position="+06.8319+029.6689">
+      <Runway Name="01" Position="+06.8220+029.6672" />
+      <Runway Name="19" Position="+06.8375+029.6704" />
+    </Airport>
+    <Airport ICAO="HJWW" FullName="Wau" Position="+07.7258+027.9750">
+      <Runway Name="09" Position="+07.7258+027.9634" />
+      <Runway Name="27" Position="+07.7257+027.9858" />
+    </Airport>
+    <Airport ICAO="HSAT" FullName="Atbara" Position="+17.7016+034.0542">
+      <Runway Name="01" Position="+17.7017+034.0546" />
+      <Runway Name="19" Position="+17.7180+034.0598" />
+    </Airport>
+    <Airport ICAO="HSDN" FullName="Dongola" Position="+19.1525+030.4314">
+      <Runway Name="17" Position="+19.1674+030.4315" />
+      <Runway Name="35" Position="+19.1404+030.4320" />
+    </Airport>
+    <Airport ICAO="HSDZ" FullName="Damazin" Position="+11.7974+034.3364">
+      <Runway Name="17" Position="+11.7971+034.3347" />
+      <Runway Name="35" Position="+11.7726+034.3389" />
+    </Airport>
+    <Airport ICAO="HSFS" FullName="El Fasher" Position="+13.6140+025.3189">
+      <Runway Name="05" Position="+13.6068+025.3140" />
+      <Runway Name="23" Position="+13.6232+025.3356" />
+    </Airport>
+    <Airport ICAO="HSGN" FullName="Geneina" Position="+13.4835+022.4731">
+      <Runway Name="04" Position="+13.4732+022.4634" />
+      <Runway Name="22" Position="+13.4842+022.4730" />
+      <Runway Name="11" Position="+13.4876+022.4585" />
+      <Runway Name="29" Position="+13.4827+022.4748" />
+    </Airport>
+    <Airport ICAO="HSKA" FullName="Kassala" Position="+15.3938+036.3330">
+      <Runway Name="02" Position="+15.3754+036.3249" />
+      <Runway Name="20" Position="+15.3964+036.3325" />
+    </Airport>
+    <Airport ICAO="HSLI" FullName="Kadugli" Position="+11.1327+029.6992">
+      <Runway Name="06" Position="+11.1327+029.6919" />
+      <Runway Name="24" Position="+11.1434+029.7115" />
+    </Airport>
+    <Airport ICAO="HSMN" FullName="Merowe" Position="+18.4264+031.8349">
+      <Runway Name="02" Position="+18.4261+031.8344" />
+      <Runway Name="20" Position="+18.4598+031.8504" />
+    </Airport>
+    <Airport ICAO="HSNN" FullName="Nyala" Position="+12.0535+024.9636">
+      <Runway Name="04" Position="+12.0433+024.9479" />
+      <Runway Name="22" Position="+12.0636+024.9659" />
+    </Airport>
+    <Airport ICAO="HSOB" FullName="El Obeid" Position="+13.1407+030.2363">
+      <Runway Name="01" Position="+13.1398+030.2302" />
+      <Runway Name="19" Position="+13.1666+030.2348" />
+    </Airport>
+    <Airport ICAO="HSPN" FullName="Port Sudan" Position="+19.4447+037.2349">
+      <Runway Name="16" Position="+19.4446+037.2315" />
+      <Runway Name="34" Position="+19.4226+037.2367" />
+    </Airport>
+    <Airport ICAO="HSSG" FullName="Sebara Geneina" Position="+13.4772+022.5361">
+      <Runway Name="04" Position="+13.4676+022.5282" />
+      <Runway Name="22" Position="+13.4878+022.5467" />
+    </Airport>
+    <Airport ICAO="HSSK" FullName="Khartoum" Position="+15.6070+032.5532">
+      <Runway Name="18" Position="+15.6030+032.5529" />
+      <Runway Name="36" Position="+15.5751+032.5533" />
+    </Airport>
+    <Airport ICAO="HSSW" FullName="Wadi Halfa" Position="+21.8028+031.5219">
+      <Runway Name="06" Position="+21.7985+031.5135" />
+      <Runway Name="24" Position="+21.8071+031.5305" />
+    </Airport>
+    <Airport ICAO="HSWS" FullName="Wadi Siedna" Position="+15.8155+032.5141" />
+    <Airport ICAO="HSBL" FullName="Baleela" Position="+11.2219+028.5558" />
+    <Airport ICAO="HSSP" FullName="Port Sudan Old" Position="+19.5833+037.2167">
+      <Runway Name="10" Position="+19.5834+037.2177" />
+    </Airport>
+
+    <!-- Airports without Runways -->
+    <Airport ICAO="HJAK" FullName="Akobo" Position="+07.7775+033.0025" />
+    <Airport ICAO="HJAR" FullName="Adariel" Position="+10.0539+032.9597" />
+    <Airport ICAO="HJAW" FullName="Aweil" Position="+08.7917+027.3603" />
+    <Airport ICAO="HJBR" FullName="Bor" Position="+06.1911+031.6003" />
+    <Airport ICAO="HJBT" FullName="Bentiu" Position="+09.3086+029.7872" />
+    <Airport ICAO="HJFA" FullName="Paloich" Position="+10.5289+032.5006" />
+    <Airport ICAO="HJKP" FullName="Kapoeta" Position="+04.7800+033.5869" />
+    <Airport ICAO="HJMD" FullName="Maridi" Position="+04.9039+029.4439" />
+    <Airport ICAO="HJPI" FullName="Pibor" Position="+06.7956+033.1286" />
+    <Airport ICAO="HJRJ" FullName="Raga" Position="+08.4608+025.6811" />
+    <Airport ICAO="HJTR" FullName="Torit" Position="+04.4169+032.5756" />
+    <Airport ICAO="HJTU" FullName="Timbura" Position="+05.6022+027.4733" />
+    <Airport ICAO="HJYA" FullName="Yambio" Position="+04.5672+028.4242" />
+    <Airport ICAO="HJYE" FullName="Yei" Position="+04.1294+030.7322" />
+    <Airport ICAO="HJYL" FullName="Yirol" Position="+06.5589+030.5081" />
+    <Airport ICAO="HSCG" FullName="Carthago" Position="+18.7500+037.0000" />
+    <Airport ICAO="HSDB" FullName="El Debba" Position="+18.0250+030.9583" />
+    <Airport ICAO="HSDL" FullName="Dilling" Position="+12.0833+029.6833" />
+    <Airport ICAO="HSNW" FullName="New Halfa" Position="+15.3550+035.7286" />
+    <Airport ICAO="HSHG" FullName="Heglig" Position="+09.9968+029.3961" />
+  </Airports>
 </Airspace>
