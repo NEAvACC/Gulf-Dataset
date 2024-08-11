@@ -10,5 +10,6 @@
     <SimATC url="https://sim-atc.com/?vatsys=true" />
     <SepCalc url="https://www.worldflight.com.au/files/sepcalc1.html" />
     <SkyVector url="https://skyvector.com" />
+    <Windy url="https://windy.com" />
   </Browsers>
 </MET>
