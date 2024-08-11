@@ -29,6 +29,17 @@
       <Point Name="A">+19.434856+037.234436</Point>
       <Point Name="MILITARY APRON">+19.449287+037.236429</Point>
       <Point Name="PASSENGER TERMINAL">+19.434988+037.239005</Point>
+      <!-- HJJJ-->
+      <Point Name="B">+04.878581+031.591992</Point>
+      <Point Name="D">+04.870192+031.601950</Point>
+      <Point Name="E">+04.868475+031.604008</Point>
+      <Point Name="F">+04.864309+031.608999</Point>
+      <Point Name="A">+04.865900+031.604836</Point>
+      <Point Name="A">+04.875079+031.593655</Point>
+      <Point Name="PASSENGER APRON">+04.866650+031.600491</Point>
+      <Point Name="UN APRON">+04.870773+031.595848</Point>
+      <Point Name="13">+04.883044+031.588111</Point>
+      <Point Name="31">+04.865119+031.609289</Point>
     </Label>
   </Map>
 </Maps>
