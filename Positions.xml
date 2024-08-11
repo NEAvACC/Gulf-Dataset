@@ -743,4 +743,13 @@
       <Map Name="ASMGCS_TAXI_ALL" />
     </Maps>
   </Position>
+  <Position Name="HJJJ" Type="ASMGCS" ASMGCSAirport="HJJJ" DefaultCenter="+04.8710+031.6011"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Juba/HJJJ_TWYS" />
+      <Map Name="Juba/HJJJ_RWYS" />
+      <Map Name="Juba/HJJJ_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
 </Positions>
