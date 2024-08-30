@@ -47,6 +47,12 @@
       <Point Name="B">+18.442223+031.842073</Point>
       <Point Name="A">+18.444740+031.843244</Point>
       <Point Name="PASSENGER APRON">+18.443486+031.837456</Point>
+      <!-- HSFS-->
+      <Point Name="23">+13.623029+025.335321</Point>
+      <Point Name="05">+13.606973+025.314261</Point>
+      <Point Name="B">+13.618949+025.328853</Point>
+      <Point Name="A">+13.619766+025.329931</Point>
+      <Point Name="PASSENGER APRON">+13.621367+025.328168</Point>
     </Label>
   </Map>
 </Maps>
