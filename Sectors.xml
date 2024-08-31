@@ -4,7 +4,7 @@
 
   <Sector Name="KN" FullName="Khartoum Center" Frequency="127.500" Callsign="HSSS_1_CTR">
     <Volumes>HSSS_N,HSSS_S</Volumes>
-    <ResponsibleSectors>KRS,JB</ResponsibleSectors>
+    <ResponsibleSectors>KS,JB</ResponsibleSectors>
   </Sector>
   <Sector Name="KS" FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_2_CTR">
     <Volumes>HSSS_S</Volumes>
