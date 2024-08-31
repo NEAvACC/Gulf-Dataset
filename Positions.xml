@@ -12,7 +12,13 @@
       <Sectors>
         <Sector Name="KN" />
         <Sector Name="KS" />
+        <Sector Name="PA" />
+        <Sector Name="KA" />
+        <Sector Name="MA" />
+        <Sector Name="FA" />
+        <Sector Name="GA" />
         <Sector Name="JB" />
+        <Sector Name="NA" />
       </Sectors>
       <ManualVisibility>
         <Point>+17.334444+034.673889</Point>
@@ -52,7 +58,10 @@
       DefaultRange="1500">
       <Sectors>
         <Sector Name="KS" />
+        <Sector Name="FA" />
+        <Sector Name="GA" />
         <Sector Name="JB" />
+        <Sector Name="NA" />
       </Sectors>
       <ManualVisibility>
         <Point>+13.598358+025.302961</Point>
