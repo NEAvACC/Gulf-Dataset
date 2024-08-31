@@ -204,6 +204,7 @@
         <SID Name="RADK2B" />
         <SID Name="SIVI2B" />
         <SID Name="SODA2B" />
+        <SID Name="TABK2B" />
         <STAR Name="GERA1B" />
         <STAR Name="KARE1B" />
         <STAR Name="KUVT1B" />
@@ -1468,7 +1469,7 @@
     <SID Name="SODA2B" Airport="HSSK" Runways="36">
       <Route Runway="36">SS702/SS712/SS714/SS716/SODAB</Route>
     </SID>
-    <SID Name="TABK" Airport="HSSK" Runways="36">
+    <SID Name="TABK2B" Airport="HSSK" Runways="36">
       <Route Runway="36">SS702/SS706/SS708/SS710/TABKO</Route>
     </SID>
     <STAR Name="ATUG1A" Airport="HJJJ" Runways="13">

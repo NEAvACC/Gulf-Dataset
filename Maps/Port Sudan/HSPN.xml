@@ -2,14 +2,16 @@
 
     <Map Name="RWY34" Type="System" Pattern="Solid" Priority="1" Center="+19.433611+037.2341673">
         <Runway Name="34">
-            <Threshold Name="16" Position="+19.444628+037.231420" ExtendedCentrelineTrack="167.4" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="16" Position="+19.444628+037.231420" ExtendedCentrelineTrack="167.4"
+                ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="34" Position="+19.422618+037.236670" />
         </Runway>
     </Map>
     <Map Name="RWY16" Type="System" Pattern="Solid" Priority="1" Center="+19.433611+037.2341673">
         <Runway Name="34">
             <Threshold Name="16" Position="+19.444628+037.231420" />
-            <Threshold Name="34" Position="+19.422618+037.236670" ExtendedCentrelineTrack="347.4" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="34" Position="+19.422618+037.236670" ExtendedCentrelineTrack="347.4"
+                ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
         </Runway>
     </Map>
 
@@ -41,7 +43,7 @@
             <Point>PN407</Point>
             <Point>NABUT</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>PN404</Point>
             <Point>PN409</Point>
             <Point>PN413</Point>
@@ -89,7 +91,7 @@
             <Point>PN824</Point>
             <Point>NABUT</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>PN518</Point>
             <Point>PN515</Point>
             <Point>RADSI</Point>
@@ -318,7 +320,7 @@
             <Point>DAPEN</Point>
             <Point>NABUT</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>PN850</Point>
             <Point>35PSD</Point>
             <Point>PN804</Point>
@@ -536,7 +538,7 @@
             <Point>DAPEN</Point>
             <Point>NABUT</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>PN710</Point>
             <Point>PSD37</Point>
             <Point>PN770</Point>

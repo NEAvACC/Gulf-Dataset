@@ -28,7 +28,7 @@
       <Point Name="B">+19.432679+037.235000</Point>
       <Point Name="A">+19.434856+037.234436</Point>
       <Point Name="MILITARY APRON">+19.449287+037.236429</Point>
-      <Point Name="PASSENGER TERMINAL">+19.434988+037.239005</Point>
+      <Point Name="PASSENGER APRON">+19.434988+037.239005</Point>
       <!-- HJJJ-->
       <Point Name="B">+04.878581+031.591992</Point>
       <Point Name="D">+04.870192+031.601950</Point>
@@ -40,6 +40,73 @@
       <Point Name="UN APRON">+04.870773+031.595848</Point>
       <Point Name="13">+04.883044+031.588111</Point>
       <Point Name="31">+04.865119+031.609289</Point>
+      <!-- HSMN-->
+      <Point Name="02">+18.426877+031.836291</Point>
+      <Point Name="20">+18.459327+031.850999</Point>
+      <Point Name="C">+18.439464+031.840855</Point>
+      <Point Name="B">+18.442223+031.842073</Point>
+      <Point Name="A">+18.444740+031.843244</Point>
+      <Point Name="PASSENGER APRON">+18.443486+031.837456</Point>
+      <!-- HSFS-->
+      <Point Name="23">+13.623029+025.335321</Point>
+      <Point Name="05">+13.606973+025.314261</Point>
+      <Point Name="B">+13.618949+025.328853</Point>
+      <Point Name="A">+13.619766+025.329931</Point>
+      <Point Name="PASSENGER APRON">+13.621367+025.328168</Point>
+      <!-- HSDN-->
+      <Point Name="35">+19.140928+030.431376</Point>
+      <Point Name="17">+19.166920+030.428766</Point>
+      <Point Name="A">+19.152385+030.430883</Point>
+      <Point Name="B">+19.151250+030.431063</Point>
+      <Point Name="PASSENGER APRON">+19.152161+030.432800</Point>
+      <!-- HSDZ-->
+      <Point Name="35">+11.773080+034.338838</Point>
+      <Point Name="17">+11.796731+034.334779</Point>
+      <Point Name="A">+11.793011+034.336054</Point>
+      <Point Name="B">+11.791919+034.336223</Point>
+      <Point Name="PASSENGER APRON">+11.792716+034.337315</Point>
+      <!-- HSAT-->
+      <Point Name="19">+17.717710+034.059636</Point>
+      <Point Name="01">+17.702044+034.054771</Point>
+      <!-- HSLI-->
+      <Point Name="08">+11.132887+029.691069</Point>
+      <Point Name="24">+11.143123+029.711006</Point>
+      <!-- HSKA-->
+      <Point Name="02">+15.375801+036.323958</Point>
+      <Point Name="20">+15.395991+036.332375</Point>
+      <!-- HJMK-->
+      <Point Name="04">+09.552808+031.646166</Point>
+      <Point Name="22">+09.565175+031.658270</Point>
+      <Point Name="A">+09.557651+031.651387</Point>
+      <Point Name="B">+09.556223+031.650087</Point>
+      <Point Name="PASSENGER APRON">+09.555638+031.652193</Point>
+      <Point Name="UN APRON">+09.552003+031.648217</Point>
+      <!-- HSSG-->
+      <Point Name="04">+13.468133+022.528533</Point>
+      <Point Name="22">+13.487414+022.546362</Point>
+      <Point Name="A">+13.478873+022.537357</Point>
+      <Point Name="B">+13.477742+022.536238</Point>
+      <Point Name="PASSENGER APRON">+13.480671+022.534261</Point>
+      <!-- HSSW -->
+      <Point Name="06">+21.798771+031.514053</Point>
+      <Point Name="24">+21.806930+031.530129</Point>
+      <!-- HJWW -->
+      <Point Name="09">+07.725825+027.963801</Point>
+      <Point Name="27">+07.725675+027.985408</Point>
+      <Point Name="PASSENGER APRON">+07.722886+027.978925</Point>
+      <Point Name="UN APRON">+07.722965+027.973790</Point>
+      <!-- HSNN-->
+      <Point Name="04">+12.043805+024.947438</Point>
+      <Point Name="22">+12.063391+024.964869</Point>
+      <Point Name="A">+13.478873+022.537357</Point>
+      <Point Name="B">+13.477742+022.536238</Point>
+      <Point Name="PASSENGER APRON">+12.055892+024.953640</Point>
+      <!-- HSOB-->
+      <Point Name="01">+13.140410+030.230811</Point>
+      <Point Name="19">+13.166265+030.234711</Point>
+      <Point Name="A">+13.159552+030.234397</Point>
+      <Point Name="B">+13.158132+030.234177</Point>
+      <Point Name="PASSENGER APRON">+13.158534+030.236402</Point>
     </Label>
   </Map>
 </Maps>

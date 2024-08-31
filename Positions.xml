@@ -10,9 +10,9 @@
     <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+14.229056+030.242251"
       DefaultRange="2500">
       <Sectors>
-        <Sector Name="KRN" />
-        <Sector Name="KRS" />
-        <Sector Name="JUB" />
+        <Sector Name="KN" />
+        <Sector Name="KS" />
+        <Sector Name="JB" />
       </Sectors>
       <ManualVisibility>
         <Point>+17.334444+034.673889</Point>
@@ -41,16 +41,18 @@
       </ArrivalLists>
       <CFL QuickLevel="4000" />
       <ControllerInfo>
-        <Line>"Khartoum Center"</Line>
+        <Line>"Khartoum Center" | CPDLC [HSSS] AVIL FOR FANS 1/A EQUIP ACFT FL245+</Line>
         <Line>Covering Khartoum and Juba FIR when local ATC offline</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
     <Position Name="Khartoum South" Type="ASD" DefaultCenter="+11.299281+029.989239"
       DefaultRange="1500">
       <Sectors>
-        <Sector Name="KRS" />
-        <Sector Name="JUB" />
+        <Sector Name="KS" />
+        <Sector Name="JB" />
       </Sectors>
       <ManualVisibility>
         <Point>+13.598358+025.302961</Point>
@@ -79,14 +81,16 @@
       </ArrivalLists>
       <CFL QuickLevel="4000" />
       <ControllerInfo>
-        <Line>"Khartoum Center"</Line>
+        <Line>"Khartoum Center" | CPDLC [HJJJ] AVIL FOR FANS 1/A EQUIP ACFT FL245+</Line>
         <Line>Covering the South Sector above FL245+ and Juba FIR when local ATC offline</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
     <Position Name="Juba" Type="ASD" DefaultCenter="+07.643810+030.259285" DefaultRange="1500">
       <Sectors>
-        <Sector Name="JUB" />
+        <Sector Name="JB" />
       </Sectors>
       <ManualVisibility>
         <Point>+13.598358+025.302961</Point>
@@ -115,6 +119,8 @@
         <Line>"Juba Control"</Line>
         <Line>Covering HJJJ FIR up to FL245 | Report Callsign, Aircraft Type and Position on Initial
           Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -125,9 +131,9 @@
 
   <Group Name="Approach">
 
-    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.197889+032.556797" DefaultRange="800">
+    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.197889+032.556797" DefaultRange="450">
       <Sectors>
-        <Sector Name="KRA" />
+        <Sector Name="KA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_NAVAIDS" />
@@ -152,12 +158,14 @@
       <ControllerInfo>
         <Line>"Khartoum Approach"</Line>
         <Line>Covering Khartoum TMA upto FL285</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="600">
+    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="200">
       <Sectors>
-        <Sector Name="MRA" />
+        <Sector Name="MA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_NAVAIDS" />
@@ -182,13 +190,15 @@
       <ControllerInfo>
         <Line>"Merowe Approach"</Line>
         <Line>Covering Merowe TMA upto FL195</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
 
-    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="300">
+    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="250">
       <Sectors>
-        <Sector Name="FSA" />
+        <Sector Name="FA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_NAVAIDS" />
@@ -213,12 +223,14 @@
       <ControllerInfo>
         <Line>"El-Fashir Approach"</Line>
         <Line>Covering El-Fashir TMA upto FL145</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="300">
+    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="250">
       <Sectors>
-        <Sector Name="GNA" />
+        <Sector Name="GA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_NAVAIDS" />
@@ -244,12 +256,14 @@
       <ControllerInfo>
         <Line>"Genina Approach"</Line>
         <Line>Covering Genina Approach TMA upto FL145</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="300">
+    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="250">
       <Sectors>
-        <Sector Name="PSA" />
+        <Sector Name="PA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_NAVAIDS" />
@@ -274,6 +288,8 @@
       <ControllerInfo>
         <Line>"Port Sudan Approach"</Line>
         <Line>Covering Port Sudan TMA upto FL195</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -283,7 +299,7 @@
   TWR Positions-->
 
   <Group Name="Control Tower">
-    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="180">
+    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="100">
       <Sectors>
         <Sector Name="KR ADC" />
       </Sectors>
@@ -307,10 +323,12 @@
       <ControllerInfo>
         <Line>"Khartoum Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="180">
+    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="100">
       <Sectors>
         <Sector Name="PS ADC" />
       </Sectors>
@@ -334,10 +352,12 @@
       <ControllerInfo>
         <Line>"Port Sudan Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="180">
+    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="100">
       <Sectors>
         <Sector Name="MR ADC" />
       </Sectors>
@@ -364,10 +384,12 @@
       <ControllerInfo>
         <Line>"Merowe Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="180">
+    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="100">
       <Sectors>
         <Sector Name="GN ADC" />
       </Sectors>
@@ -391,10 +413,12 @@
       <ControllerInfo>
         <Line>"Genina Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="180">
+    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="100">
       <Sectors>
         <Sector Name="FS ADC" />
       </Sectors>
@@ -418,10 +442,12 @@
       <ControllerInfo>
         <Line>"El-Fashir Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Neyala" Type="ASD" DefaultCenter="+12.053611+024.956111" DefaultRange="180">
+    <Position Name="Neyala" Type="ASD" DefaultCenter="+12.053611+024.956111" DefaultRange="100">
       <Sectors>
         <Sector Name="NY ADC" />
       </Sectors>
@@ -444,10 +470,12 @@
       <ControllerInfo>
         <Line>"Neyala Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Dongola" Type="ASD" DefaultCenter="+19.153611+030.430000" DefaultRange="180">
+    <Position Name="Dongola" Type="ASD" DefaultCenter="+19.153611+030.430000" DefaultRange="100">
       <Sectors>
         <Sector Name="DN ADC" />
       </Sectors>
@@ -470,10 +498,12 @@
       <ControllerInfo>
         <Line>"Dongola Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="El-Obied" Type="ASD" DefaultCenter="+13.152833+030.232833" DefaultRange="180">
+    <Position Name="El-Obied" Type="ASD" DefaultCenter="+13.152833+030.232833" DefaultRange="100">
       <Sectors>
         <Sector Name="OB ADC" />
       </Sectors>
@@ -496,10 +526,12 @@
       <ControllerInfo>
         <Line>"El-Obied Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Kassala" Type="ASD" DefaultCenter="+15.387222+036.328611" DefaultRange="180">
+    <Position Name="Kassala" Type="ASD" DefaultCenter="+15.387222+036.328611" DefaultRange="100">
       <Sectors>
         <Sector Name="KS ADC" />
       </Sectors>
@@ -522,10 +554,12 @@
       <ControllerInfo>
         <Line>"Kassala Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Juba" Type="ASD" DefaultCenter="+04.871944+031.601111" DefaultRange="180">
+    <Position Name="Juba" Type="ASD" DefaultCenter="+04.871944+031.601111" DefaultRange="100">
       <Sectors>
         <Sector Name="JB ADC" />
       </Sectors>
@@ -548,10 +582,14 @@
       <ControllerInfo>
         <Line>"Juba Tower"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
       <ControllerInfo>
         <Line>"Juba Ground"</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -585,6 +623,8 @@
       <ControllerInfo>
         <Line>"Atbara Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -612,6 +652,8 @@
       <ControllerInfo>
         <Line>"Wadi Halfa Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -639,6 +681,8 @@
       <ControllerInfo>
         <Line>"Damazin Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -666,6 +710,8 @@
       <ControllerInfo>
         <Line>"Wau Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -693,6 +739,8 @@
       <ControllerInfo>
         <Line>"Kadugli Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -720,6 +768,8 @@
       <ControllerInfo>
         <Line>"Malakal Radio" | Procedural Service</Line>
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Charts: https://vats.im/NEAcharts</Line>
+        <Line>Feedback: https://vats.im/nea-feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -749,6 +799,110 @@
       <Map Name="Juba/HJJJ_TWYS" />
       <Map Name="Juba/HJJJ_RWYS" />
       <Map Name="Juba/HJJJ_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSMN" Type="ASMGCS" ASMGCSAirport="HSMN" DefaultCenter="+18.442545+031.843383"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Merowe/HSMN_TWYS" />
+      <Map Name="Merowe/HSMN_BLDS" />
+      <Map Name="Merowe/HSMN_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSAT" Type="ASMGCS" ASMGCSAirport="HSAT" DefaultCenter="+17.709722+034.057222"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Atbara/HSAT_TWYS" />
+      <Map Name="Atbara/HSAT_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSDZ" Type="ASMGCS" ASMGCSAirport="HSDZ" DefaultCenter="+11.786111+034.336667"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Damazin/HSDZ_TWYS" />
+      <Map Name="Damazin/HSDZ_RWYS" />
+      <Map Name="Damazin/HSDZ_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSDN" Type="ASMGCS" ASMGCSAirport="HSDN" DefaultCenter="+19.152500+030.430278"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Dongola/HSDN_TWYS" />
+      <Map Name="Dongola/HSDN_RWYS" />
+      <Map Name="Dongola/HSDN_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSOB" Type="ASMGCS" ASMGCSAirport="HSOB" DefaultCenter="+13.152900+030.232700"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="El-obeid/HSOB_TWYS" />
+      <Map Name="El-obeid/HSOB_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSLI" Type="ASMGCS" ASMGCSAirport="HSLI" DefaultCenter="+11.137106+029.699239"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Kadugli/HSLI_TWYS" />
+      <Map Name="Kadugli/HSLI_RWYS" />
+      <Map Name="Kadugli/HSLI_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSKA" Type="ASMGCS" ASMGCSAirport="HSKA" DefaultCenter="+15.387494+036.328842"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Kassala/HSKA_TWYS" />
+      <Map Name="Kassala/HSKA_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HJMK" Type="ASMGCS" ASMGCSAirport="HJMK" DefaultCenter="+09.558972+031.652233"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Malakal/HJMK_TWYS" />
+      <Map Name="Malakal/HJMK_RWYS" />
+      <Map Name="Malakal/HJMK_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSSG" Type="ASMGCS" ASMGCSAirport="HSSG" DefaultCenter="+13.477500+022.537222"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Sebara/HSSG_TWYS" />
+      <Map Name="Sebara/HSSG_RWYS" />
+      <Map Name="Sebara/HSSG_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSSW" Type="ASMGCS" ASMGCSAirport="HSSW" DefaultCenter="+21.802778+031.521944"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Wadi Halfa/HSSW_TWYS" />
+      <Map Name="Wadi Halfa/HSSW_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HJWW" Type="ASMGCS" ASMGCSAirport="HJWW" DefaultCenter="+07.725833+027.975000"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Wau/HJWW_TWYS" />
+      <Map Name="Wau/HJWW_RWYS" />
+      <Map Name="Wau/HJWW_GRASS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSNN" Type="ASMGCS" ASMGCSAirport="HSNN" DefaultCenter="+12.053489+024.956125"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Nyala/HSNN_TWYS" />
+      <Map Name="Nyala/HSNN_RWYS" />
+      <Map Name="Nyala/HSNN_GRASS" />
       <Map Name="ASMGCS_TAXI_ALL" />
     </Maps>
   </Position>

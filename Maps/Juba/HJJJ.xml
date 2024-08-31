@@ -2,20 +2,22 @@
 
     <Map Name="RWY31" Type="System" Pattern="Solid" Priority="1" Center="+04.871944+031.601111">
         <Runway Name="18">
-            <Threshold Name="31" Position="+04.865069+031.609319" ExtendedCentrelineTrack="310.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="+04.865069+031.609319" ExtendedCentrelineTrack="310.3"
+                ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="13" Position="+04.882943+031.588206" />
         </Runway>
     </Map>
     <Map Name="RWY13" Type="System" Pattern="Solid" Priority="1" Center="+04.871944+031.601111">
         <Runway Name="18">
             <Threshold Name="31" Position="+04.865069+031.609319" />
-            <Threshold Name="13" Position="+04.882943+031.588206" ExtendedCentrelineTrack="130.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="+04.882943+031.588206" ExtendedCentrelineTrack="130.3"
+                ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
         </Runway>
     </Map>
 
 
-    <Map Type="System" Name="RWY13 STARs" Priority="1" Center="+04.871944+031.601111">>
-        <Line Pattern="Solid">ATUGA/JJ967/JJ963/JJ551/JJ962/JJ941/JJ507</Line>
+    <Map Type="System" Name="RWY13 STARs" Priority="1" Center="+04.871944+031.601111">> <Line
+            Pattern="Solid">ATUGA/JJ967/JJ963/JJ551/JJ962/JJ941/JJ507</Line>
         <Line Pattern="Solid">
         EGBIM/JJ525/JJ519/JJ513/JJ511/TUKLA</Line>
         <Line Pattern="Solid">
@@ -31,8 +33,8 @@
         <Line Pattern="Solid">
         TAPOS/JJ539/JJ537/JJ533/JJ531/JJ507</Line>
     </Map>
-    <Map Type="System" Name="RWY13 STARs Labels" Priority="1" Center="+04.871944+031.601111">>
-        <Symbol Type="HollowStar">
+    <Map Type="System" Name="RWY13 STARs Labels" Priority="1" Center="+04.871944+031.601111">> <Symbol
+            Type="HollowStar">
             <Point>KABLA</Point>
             <Point>JJ537</Point>
             <Point>JJ535</Point>
@@ -74,7 +76,7 @@
             <Point>JJ525</Point>
             <Point>JJ553</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>KABLA</Point>
             <Point>JJ537</Point>
             <Point>JJ535</Point>
@@ -167,7 +169,7 @@
             <Point>MOGIP</Point>
             <Point>JJ646</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>JJ652</Point>
             <Point>JJ688</Point>
             <Point>KABLA</Point>
@@ -247,7 +249,7 @@
             <Point>JJ780</Point>
             <Point>JJ700</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>JJ705</Point>
             <Point>KABLA</Point>
             <Point>JJ703</Point>
@@ -315,7 +317,7 @@
             <Point>JJ860</Point>
             <Point>JJ828</Point>
         </Symbol>
-        <Label HasLeader="false">
+        <Label HasLeader="true">
             <Point>KABLA</Point>
             <Point>JJ836</Point>
             <Point>LADVA</Point>
