@@ -4984,7 +4984,7 @@
     <Boundaries>OEJD,HECC6,HECC5</Boundaries>
   </Volume>
   <Volume Name="AFRE" LowerLimit="24000" UpperLimit="60000">
-    <Boundaries>HSSS_N,HSSS_S,HHAA,HAAA</Boundaries>
+    <Boundaries>HSSS_N,HSSS_S,HHAA,HAAA,HJJJ_FIR</Boundaries>
   </Volume>
   <Volume Name="AFRN" LowerLimit="24000" UpperLimit="60000">
     <Boundaries>FTTT,HLLL</Boundaries>
