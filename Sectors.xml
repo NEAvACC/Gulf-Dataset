@@ -179,11 +179,13 @@
   <!-- HECC -->
   <Sector FullName="Cairo Control" Frequency="128.725" Callsign="HECC_1X_CTR" Name="X1"
     DisplayInSectorsWindow="False">
-    <Volumes>HECC6</Volumes>
+    <Volumes>HECC5,HECC6</Volumes>
+    <ResponsibleSectors>CI,46,X5,C5,X6,C6</ResponsibleSectors>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="127.700" Callsign="HECC_1_CTR" Name="CI"
     DisplayInSectorsWindow="False">
-    <Volumes>HECC5</Volumes>
+    <Volumes>HECC5,HECC6</Volumes>
+    <ResponsibleSectors>46,X5,C5,X6,C6</ResponsibleSectors>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="129.450" Callsign="HECC_46_CTR" Name="46"
     DisplayInSectorsWindow="False">
@@ -192,14 +194,17 @@
   <Sector FullName="Cairo Control" Frequency="134.500" Callsign="HECC_5X_CTR" Name="X5"
     DisplayInSectorsWindow="False">
     <Volumes>HECC5</Volumes>
+    <ResponsibleSectors>C5,46</ResponsibleSectors>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="130.900" Callsign="HECC_5_CTR" Name="C5"
     DisplayInSectorsWindow="False">
     <Volumes>HECC5</Volumes>
+    <ResponsibleSectors>46</ResponsibleSectors>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="124.575" Callsign="HECC_6X_CTR" Name="X6"
     DisplayInSectorsWindow="False">
     <Volumes>HECC6</Volumes>
+    <ResponsibleSectors>C6</ResponsibleSectors>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="129.400" Callsign="HECC_6_CTR" Name="C6"
     DisplayInSectorsWindow="False">
