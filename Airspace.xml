@@ -216,61 +216,61 @@
       </Runway>
     </Airport>
     <Airport Name="HJMK" FullName="Malakal">
-        <Runway Name="04" DataRunway="04" />
-        <Runway Name="22" DataRunway="22" />
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
     </Airport>
     <Airport Name="HJRB" FullName="Rumbek">
-        <Runway Name="01" DataRunway="01" />
-        <Runway Name="19" DataRunway="19" />
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
     </Airport>
     <Airport Name="HJWW" FullName="Wau">
-        <Runway Name="09" DataRunway="09" />
-        <Runway Name="27" DataRunway="27" />
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="27" DataRunway="27" />
     </Airport>
     <Airport Name="HSAT" FullName="Atbara">
-        <Runway Name="01" DataRunway="01" />
-        <Runway Name="19" DataRunway="19" />
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
     </Airport>
     <Airport Name="HSDN" FullName="Dongola">
-        <Runway Name="17" DataRunway="17" />
-        <Runway Name="35" DataRunway="35" />
+      <Runway Name="17" DataRunway="17" />
+      <Runway Name="35" DataRunway="35" />
     </Airport>
     <Airport Name="HSDZ" FullName="Damazin">
-        <Runway Name="17" DataRunway="17" />
-        <Runway Name="35" DataRunway="35" />
+      <Runway Name="17" DataRunway="17" />
+      <Runway Name="35" DataRunway="35" />
     </Airport>
     <Airport Name="HSGN" FullName="Geneina">
-        <Runway Name="04" DataRunway="04" />
-        <Runway Name="22" DataRunway="22" />
-        <Runway Name="11" DataRunway="11" />
-        <Runway Name="29" DataRunway="29" />
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
     </Airport>
     <Airport Name="HSKA" FullName="Kassala">
-        <Runway Name="02" DataRunway="02" />
-        <Runway Name="20" DataRunway="20" />
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="20" DataRunway="20" />
     </Airport>
     <Airport Name="HSLI" FullName="Kadugli">
-        <Runway Name="06" DataRunway="06" />
-        <Runway Name="24" DataRunway="24" />
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
     </Airport>
     <Airport Name="HSNN" FullName="Nyala">
-        <Runway Name="04" DataRunway="04" />
-        <Runway Name="22" DataRunway="22" />
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
     </Airport>
     <Airport Name="HSOB" FullName="El Obeid">
-        <Runway Name="01" DataRunway="01" />
-        <Runway Name="19" DataRunway="19" />
+      <Runway Name="01" DataRunway="01" />
+      <Runway Name="19" DataRunway="19" />
     </Airport>
     <Airport Name="HSSG" FullName="Sebara Geneina">
-        <Runway Name="04" DataRunway="04" />
-        <Runway Name="22" DataRunway="22" />
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
     </Airport>
     <Airport Name="HSSW" FullName="Wadi Halfa">
-        <Runway Name="06" DataRunway="06" />
-        <Runway Name="24" DataRunway="24" />
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
     </Airport>
     <Airport Name="HSSP" FullName="Port Sudan Old">
-        <Runway Name="10" DataRunway="10" />
+      <Runway Name="10" DataRunway="10" />
     </Airport>
   </SystemRunways>
 
