@@ -46,7 +46,7 @@
     <Lat>04.875953</Lat>
     <Long>+031.599675</Long>
   </Radar>
-    <Radar Name="Wau" Type="ADSB" Elevation="1729" MaxRange="250">
+  <Radar Name="Wau" Type="ADSB" Elevation="1729" MaxRange="250">
     <Lat>07.725800</Lat>
     <Long>+027.1224005</Long>
   </Radar>
@@ -205,56 +205,5 @@
   <Radar Name="HSSW_SMR" Type="SMR_ADSB" Elevation="933" MaxRange="5">
     <Lat>21.802778</Lat>
     <Long>031.521944</Long>
-  </Radar>
-
-  <!--Neighboring
-  FIR Radars-->
-
-  <!--HHAA-->
-
-  <Radar Name="Asmara SSR" Type="SSR_ModeC" Elevation="7661" MaxRange="256">
-    <Lat>15.286389</Lat>
-    <Long>+038.900000</Long>
-  </Radar>
-
-  <!--HAAA-->
-
-  <Radar Name="Soddo ADSB" Type="ADSB" Elevation="6400" MaxRange="250">
-    <Lat>06.833333</Lat>
-    <Long>+037.766667</Long>
-  </Radar>
-  <Radar Name="Axum ADSB" Type="ADSB" Elevation="6960" MaxRange="250">
-    <Lat>14.146667</Lat>
-    <Long>+038.776667</Long>
-  </Radar>
-  <Radar Name="Gambella ADSB" Type="ADSB" Elevation="1790" MaxRange="250">
-    <Lat>08.117333</Lat>
-    <Long>+034.563333</Long>
-  </Radar>
-
-  <!--OEJD-->
-
-  <Radar Name="Jeddah PSR" Type="PRI" Elevation="170" MaxRange="80">
-    <Lat>21.713498</Lat>
-    <Long>+039.152441</Long>
-  </Radar>
-  <Radar Name="Jeddah SSR" Type="SSR_ModeS" Elevation="170" MaxRange="256">
-    <Lat>21.713498</Lat>
-    <Long>+039.152441</Long>
-  </Radar>
-  <Radar Name="Jeddah ADSB" Type="ADSB" Elevation="170" MaxRange="250">
-    <Lat>21.713498</Lat>
-    <Long>+039.152441</Long>
-  </Radar>
-  <Radar Name="Jeddah2 SSR" Type="SSR_ModeC" Elevation="650" MaxRange="256">
-    <Lat>+21.661348</Lat>
-    <Long>+039.222080</Long>
-  </Radar>
-
-  <!--HECC-->
-
-  <Radar Name="Aswan SSR" Type="SSR_ModeC" Elevation="668" MaxRange="256">
-    <Lat>21.713498</Lat>
-    <Long>+039.152441</Long>
   </Radar>
 </Radars>
