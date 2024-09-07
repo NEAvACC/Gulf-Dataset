@@ -1,5 +1,5 @@
 <Maps>
-    <Map Type="System" Name="RIVER_NILE" Priority="3" CustomColourName="Coast">
+    <Map Type="System" Name="RIVER_NILE" Priority="2" CustomColourName="Coast">
         <Line Name="Coastline">+2100.000+03035.810/+2100.167+03035.817</Line>
         <Line Name="Coastline">+2100.167+03035.817/+2100.567+03035.833</Line>
         <Line Name="Coastline">+2100.567+03035.833/+2100.950+03035.900</Line>
