@@ -5,9 +5,11 @@
   <Sector Name="KRTN" FullName="ACC North" Frequency="127.500" Callsign="HSSS_1_CTR">
     <Volumes>HSSS_N</Volumes>
     <ResponsibleSectors>KS,JB</ResponsibleSectors>
+    <ResponsibleSectors>KS,JB</ResponsibleSectors>
   </Sector>
   <Sector Name="KRTS" FullName="ACC South" Frequency="127.300" Callsign="HSSS_2_CTR">
     <Volumes>HSSS_S</Volumes>
+    <ResponsibleSectors>JB</ResponsibleSectors>
     <ResponsibleSectors>JB</ResponsibleSectors>
   </Sector>
   <Sector Name="JUBA" FullName="Juba ACC" Frequency="123.900" Callsign="HJJJ_1_CTR">
