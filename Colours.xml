@@ -405,9 +405,9 @@
   <Colour id="SecondaryMap">
     <Use>Alternative System Map</Use>
     <Name>BlueGrey</Name>
-    <R>145</R>
-    <G>178</G>
-    <B>177</B>
+    <R>212</R>
+    <G>211</G>
+    <B>196</B>
   </Colour>
   <Colour id="GroundRunway">
     <Use>A-SMGCS Runway</Use>

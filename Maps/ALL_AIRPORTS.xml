@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Maps>
-    <Map Name="ALL_AIRPORTS" Priority="0" Type="System2" Center="+15.538806+033.139711">
+    <Map Name="ALL_AIRPORTS" Priority="2" Type="System" Center="+15.538806+033.139711">
         <Symbol Type="Reticle">
             <Point>HJAK</Point>
             <Point>HJAR</Point>
@@ -44,7 +44,7 @@
             <Point>HSBL</Point>
             <Point>HSSP</Point>
         </Symbol>
-        <Label hasLeader="true">
+        <Label>
             <Point Name="HJAK">HJAK</Point>
             <Point Name="HJAR">HJAR</Point>
             <Point Name="HJAW">HJAW</Point>

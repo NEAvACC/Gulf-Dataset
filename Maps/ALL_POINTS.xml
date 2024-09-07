@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Maps>
-    <Map Name="ALL_POINTS_HIGH" Priority="0" Type="System">
-        <Label hasLeader="true">
+    <Map Name="ALL_POINTS" Priority="1" Type="System">
+        <Label>
             <Point Name="VATEN">VATEN</Point>
             <Point Name="RADKA">RADKA</Point>
             <Point Name="IMSUT">IMSUT</Point>
@@ -50,11 +50,9 @@
             <Point Name="DATIM">DATIM</Point>
             <Point Name="SOGAD">SOGAD</Point>
             <Point Name="RAKTA">RAKTA</Point>
-            <Point Name="LUGAV">LUGAV</Point>
             <Point Name="ASKOL">ASKOL</Point>
             <Point Name="ELOXO">ELOXO</Point>
             <Point Name="ENABU">ENABU</Point>
-            <Point Name="TONTU">TONTU</Point>
             <Point Name="GIPSA">GIPSA</Point>
             <Point Name="BOXIG">BOXIG</Point>
             <Point Name="ASRAV">ASRAV</Point>
@@ -121,7 +119,6 @@
             <Point Name="DEMTI">DEMTI</Point>
             <Point Name="HAMID">HAMID</Point>
             <Point Name="PEDOS">PEDOS</Point>
-            <Point Name="ALKED">ALKED</Point>
             <Point Name="GAILY">GAILY</Point>
             <Point Name="LOPON">LOPON</Point>
             <Point Name="ILBIB">ILBIB</Point>

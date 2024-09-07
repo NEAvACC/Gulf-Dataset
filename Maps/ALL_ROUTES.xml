@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Maps>
-    <Map Name="ALL_ROUTE_HIGH" Priority="0" Type="System">
+    <Map Name="ALL_ROUTES" Priority="1" Type="System">
         <Line Name="A410">VATEN.A410.KAFIA</Line>
-        <Line Name="A727">SML VOR.A727.ANTAX</Line>
+        <Line Name="A727">NUBAR.A727.ANTAX</Line>
         <Line Name="B407">PSD VOR.B407.DENBU</Line>
         <Line Name="B526">SS450.B526.TESON</Line>
         <Line Name="B527">OVELA.B527.KTM VOR</Line>
@@ -11,8 +11,7 @@
         <Line Name="L311">KAFIA.L311.KAROX</Line>
         <Line Name="L317">KAFIA.L317.MAHDI</Line>
         <Line Name="L320">KISAL.L320.KAROX</Line>
-        <Line Name="L321">SML VOR.L321.LUGAV</Line>
-        <Line Name="L323">ASKOL.L323.TONTU</Line>
+        <Line Name="L323">ASKOL.L323.ENABU</Line>
         <Line Name="L427">GNA VOR.L427.KAROX</Line>
         <Line Name="L554">JUB VOR.L554.NUBAR</Line>
         <Line Name="L558">ASKON.L558.DASTU</Line>
@@ -22,7 +21,7 @@
         <Line Name="M320">IMDUR.M320.MIPOL</Line>
         <Line Name="M554">TOKAR.M554.MIPOL</Line>
         <Line Name="M562">VATEN.M562.MIPOL</Line>
-        <Line Name="M565">LUGAV.M565.ALRAP</Line>
+        <Line Name="M565">SISID.M565.ALRAP</Line>
         <Line Name="M568">DEKUM.M568.NUBAR</Line>
         <Line Name="M713">OBD VOR.M713.EPLAS</Line>
         <Line Name="M723">ORNAT.M723.KUVTI</Line>
@@ -42,7 +41,6 @@
         <Line Name="P322">MONAN.P322.AVONO</Line>
         <Line Name="P324">GNA VOR.P324.DELAM</Line>
         <Line Name="P556">ASKON.P556.BOGUM</Line>
-        <Line Name="P557">NUBAR.P557.ALKED</Line>
         <Line Name="P562">KISAL.P562.VATEN</Line>
         <Line Name="P565">KAFIA.P565.ATMUL</Line>
         <Line Name="P566">ILBIB.P566.VATEN</Line>
@@ -109,11 +107,9 @@
             <Point>DATIM</Point>
             <Point>SOGAD</Point>
             <Point>RAKTA</Point>
-            <Point>LUGAV</Point>
             <Point>ASKOL</Point>
             <Point>ELOXO</Point>
             <Point>ENABU</Point>
-            <Point>TONTU</Point>
             <Point>GIPSA</Point>
             <Point>BOXIG</Point>
             <Point>ASRAV</Point>
@@ -180,7 +176,6 @@
             <Point>DEMTI</Point>
             <Point>HAMID</Point>
             <Point>PEDOS</Point>
-            <Point>ALKED</Point>
             <Point>GAILY</Point>
             <Point>LOPON</Point>
             <Point>ILBIB</Point>
