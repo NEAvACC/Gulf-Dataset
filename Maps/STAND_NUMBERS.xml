@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-    <Map Type="Ground_INF" Name="ASMGCS_STANDS" Priority="0" Center="+15.590278+032.553056">
+    <Map Type="Ground_INF" Name="ASMGCS_STANDS" Priority="1" Center="+15.590278+032.553056">
         <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
             <!-- HSSK Stands -->
             <Point Name="S01">+15.600400+032.550300</Point>
