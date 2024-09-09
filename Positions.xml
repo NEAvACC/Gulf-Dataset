@@ -26,10 +26,11 @@
       </Strips>
       <ArrivalLists>
       </ArrivalLists>
+      <CFL QuickLevel="24000"/>
       <ControllerInfo>
         <Line>"Gulf Control" | CPDLC [GULW] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
         <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/nea-feedback</Line>
+        <Line>Feedback: https://vats.im/feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -54,10 +55,11 @@
       </Strips>
       <ArrivalLists>
       </ArrivalLists>
+      <CFL QuickLevel="24000"/>
       <ControllerInfo>
-        <Line>"Gulf Control" | CPDLC [GULE] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
+        <Line>"Gulf East Control" | CPDLC [GULE] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
         <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/nea-feedback</Line>
+        <Line>Feedback: https://vats.im/feedback</Line>
       </ControllerInfo>
     </Position>
 
@@ -82,10 +84,11 @@
       </Strips>
       <ArrivalLists>
       </ArrivalLists>
+      <CFL QuickLevel="24000"/>
       <ControllerInfo>
-        <Line>"Gulf Control" | CPDLC [GULF] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
+        <Line>"Gulf West Control" | CPDLC [GULF] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
         <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/nea-feedback</Line>
+        <Line>Feedback: https://vats.im/feedback</Line>
       </ControllerInfo>
     </Position>   
 </Positions>
