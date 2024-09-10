@@ -5,90 +5,98 @@
   <!--FSS
   Positions-->
 
-    <Position Name="Gulf Control" Type="ASD" DefaultCenter="+14.229056+030.242251"
-      DefaultRange="2500">
-      <Sectors>
-      </Sectors>
-      <ManualVisibility>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="ALL_NAVAIDS_NAMES" />
-        <Map Name="COAST" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="ALL_ROUTES" />
-        <Map Name="ALL_POINTS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-      </ArrivalLists>
-      <CFL QuickLevel="24000"/>
-      <ControllerInfo>
-        <Line>"Gulf Control" | CPDLC [GULW] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
-        <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/feedback</Line>
-      </ControllerInfo>
-    </Position>
+  <Position Name="Gulf Control" Type="ASD" DefaultCenter="+25.507025+044.095623"
+    DefaultRange="4500">
+    <Sectors>
+      <Sector Name="GULF" />
+      <Sector Name="GULE" />
+      <Sector Name="GULW" />
+    </Sectors>
+    <ManualVisibility>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_ROUTES" />
+      <Map Name="ALL_POINTS" />
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <ArrivalLists>
+    </ArrivalLists>
+    <CFL QuickLevel="24000" />
+    <ControllerInfo>
+      <Line>"Gulf Control" | Upper Control Services Above FL240+</Line>
+      <Line>CPDLC [GULF] AVIL FOR FANS 1/A EQUIP ACFT</Line>
+      <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC</Line>
+      <Line>Feedback: https://vats.im/feedback</Line>
+    </ControllerInfo>
+  </Position>
 
-     <Position Name="Gulf East Control" Type="ASD" DefaultCenter="+14.229056+030.242251"
-      DefaultRange="2500">
-      <Sectors>
-      </Sectors>
-      <ManualVisibility>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="ALL_NAVAIDS_NAMES" />
-        <Map Name="COAST" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="ALL_ROUTES" />
-        <Map Name="ALL_POINTS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-      </ArrivalLists>
-      <CFL QuickLevel="24000"/>
-      <ControllerInfo>
-        <Line>"Gulf East Control" | CPDLC [GULE] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
-        <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/feedback</Line>
-      </ControllerInfo>
-    </Position>
+  <Position Name="Gulf East Control" Type="ASD" DefaultCenter="+25.314247+051.251361"
+    DefaultRange="4500">
+    <Sectors>
+      <Sector Name="GULE" />
+    </Sectors>
+    <ManualVisibility>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_ROUTES" />
+      <Map Name="ALL_POINTS" />
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <ArrivalLists>
+    </ArrivalLists>
+    <CFL QuickLevel="24000" />
+    <ControllerInfo>
+      <Line>"Gulf East Control" | Upper Control Services above FL240+</Line>
+      <Line>CPDLC [GULE] AVIL FOR FANS 1/A EQUIP ACFT</Line>
+      <Line>ORBB OKAC OIIX OBBB OMAE OOMM</Line>
+      <Line>Feedback: https://vats.im/feedback</Line>
+    </ControllerInfo>
+  </Position>
 
-    <Position Name="Gulf West Control" Type="ASD" DefaultCenter="+14.229056+030.242251"
-      DefaultRange="2500">
-      <Sectors>
-      </Sectors>
-      <ManualVisibility>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="ALL_NAVAIDS_NAMES" />
-        <Map Name="COAST" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="ALL_ROUTES" />
-        <Map Name="ALL_POINTS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <ArrivalLists>
-      </ArrivalLists>
-      <CFL QuickLevel="24000"/>
-      <ControllerInfo>
-        <Line>"Gulf West Control" | CPDLC [GULF] AVIL FOR FANS 1/A EQUIP ACFT FL240+</Line>
-        <Line>Covering OLBB OSTT ORBB OKAC OIIX OBBB GULF OOMM OEJD OJAC HECC OYSC | Above FL240</Line>
-        <Line>Feedback: https://vats.im/feedback</Line>
-      </ControllerInfo>
-    </Position>   
+  <Position Name="Gulf West Control" Type="ASD" DefaultCenter="+25.486055+042.322156"
+    DefaultRange="4500">
+    <Sectors>
+      <Sector Name="GULW" />
+    </Sectors>
+    <ManualVisibility>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_ROUTES" />
+      <Map Name="ALL_POINTS" />
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <ArrivalLists>
+    </ArrivalLists>
+    <CFL QuickLevel="24000" />
+    <ControllerInfo>
+      <Line>"Gulf West Control" | Upper Control Services above FL240+</Line>
+      <Line>CPDLC [GULW] AVIL FOR FANS 1/A EQUIP ACFT</Line>
+      <Line>Covering OSTT OLBB OJAC OEJD HECC OYSC</Line>
+      <Line>Feedback: https://vats.im/feedback</Line>
+    </ControllerInfo>
+  </Position>
 </Positions>

@@ -11,6 +11,8 @@
         <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
     </ProductTypes>
     <Browsers>
+        <GulfCOPX
+            url="https://docs.google.com/document/d/14rcENTJsZAz_VCiavRhMxLUdH-e_Rzkpw4Vj5hd2Gzw/edit?usp=sharing" />
         <Notams url="https://www.notams.faa.gov/" />
         <SimATC url="https://sim-atc.com/?vatsys=true" />
         <SepCalc url="https://www.worldflight.com.au/files/sepcalc1.html" />

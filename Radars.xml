@@ -1,53 +1,459 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Radars>
+  <!-- OEJD-->
+  <Radar Name="Abha" Type="PRI" Elevation="6960" MaxRange="80">
+    <Lat>+18.2464</Lat>
+    <Long>+42.6415</Long>
+  </Radar>
+  <Radar Name="Tabuk" Type="PRI" Elevation="2660" MaxRange="80">
+    <Lat>+28.3832</Lat>
+    <Long>+36.5974</Long>
+  </Radar>
+  <Radar Name="Riyadh" Type="PRI" Elevation="2300" MaxRange="80">
+    <Lat>+24.9832</Lat>
+    <Long>+46.7149</Long>
+  </Radar>
+  <Radar Name="Medina" Type="PRI" Elevation="2400" MaxRange="80">
+    <Lat>+24.5763</Lat>
+    <Long>+39.7129</Long>
+  </Radar>
+  <Radar Name="Jeddah" Type="PRI" Elevation="170" MaxRange="80">
+    <Lat>+21.7135</Lat>
+    <Long>+39.1524</Long>
+  </Radar>
+  <Radar Name="Hail" Type="PRI" Elevation="3480" MaxRange="80">
+    <Lat>+27.4198</Lat>
+    <Long>+41.6909</Long>
+  </Radar>
+  <Radar Name="Gassim" Type="PRI" Elevation="2300" MaxRange="80">
+    <Lat>+26.2908</Lat>
+    <Long>+43.7760</Long>
+  </Radar>
+  <Radar Name="Dammam" Type="PRI" Elevation="190" MaxRange="80">
+    <Lat>+26.4917</Lat>
+    <Long>+49.7671</Long>
+  </Radar>
+  <Radar Name="Al Jouf" Type="PRI" Elevation="2350" MaxRange="80">
+    <Lat>+29.7861</Lat>
+    <Long>+40.1201</Long>
+  </Radar>
 
-  <!-- SSR Radars-->
 
-  <Radar Name="Dmazin" Type="SSR_ModeC" Elevation="1584" MaxRange="256">
-    <Lat>+11.338222</Lat>
-    <Long>+034.338306</Long>
+  <Radar Name="Abha" Type="SSR_ModeS" Elevation="6960" MaxRange="256">
+    <Lat>+18.2464</Lat>
+    <Long>+42.6415</Long>
   </Radar>
-  <Radar Name="Dongola" Type="SSR_ModeC" Elevation="773" MaxRange="256">
-    <Lat>+19.158445</Lat>
-    <Long>+030.416667</Long>
+  <Radar Name="Afif" Type="SSR_ModeC" Elevation="4350" MaxRange="256">
+    <Lat>+23.8283</Lat>
+    <Long>+42.9808</Long>
   </Radar>
-  <Radar Name="El Fashir" Type="SSR_ModeC" Elevation="2402" MaxRange="256">
-    <Lat>+13.623583</Lat>
-    <Long>+025.326139</Long>
+  <Radar Name="Al Baha" Type="SSR_ModeC" Elevation="8540" MaxRange="256">
+    <Lat>+20.0424</Lat>
+    <Long>+41.4122</Long>
   </Radar>
-  <Radar Name="El Obeid" Type="SSR_ModeC" Elevation="1928" MaxRange="256">
-    <Lat>+13.152111</Lat>
-    <Long>+030.233333</Long>
+  <Radar Name="Al Jouf" Type="SSR_ModeS" Elevation="2350" MaxRange="256">
+    <Lat>+29.7861</Lat>
+    <Long>+40.1201</Long>
   </Radar>
-  <Radar Name="Khartoum" Type="SSR_ModeC" Elevation="1271" MaxRange="256">
-    <Lat>+15.590445</Lat>
-    <Long>+032.556417</Long>
+  <Radar Name="Al Soda MSSR" Type="SSR_ModeC" Elevation="9820" MaxRange="256">
+    <Lat>+18.2767</Lat>
+    <Long>+42.3666</Long>
   </Radar>
-  <Radar Name="Port Sudan" Type="SSR_ModeC" Elevation="135" MaxRange="256">
-    <Lat>+19.439528</Lat>
-    <Long>+037.233333</Long>
+  <Radar Name="Dammam-1" Type="SSR_ModeS" Elevation="190" MaxRange="256">
+    <Lat>+26.4917</Lat>
+    <Long>+49.7671</Long>
+  </Radar>
+  <Radar Name="Dammam-2" Type="SSR_ModeC" Elevation="200" MaxRange="256">
+    <Lat>+26.4521</Lat>
+    <Long>+49.7790</Long>
+  </Radar>
+  <Radar Name="Gassim" Type="SSR_ModeS" Elevation="2300" MaxRange="256">
+    <Lat>+26.2908</Lat>
+    <Long>+43.7760</Long>
+  </Radar>
+  <Radar Name="Hafr Al Batin" Type="SSR_ModeC" Elevation="1340" MaxRange="256">
+    <Lat>+28.3483</Lat>
+    <Long>+46.1276</Long>
+  </Radar>
+  <Radar Name="Hail" Type="SSR_ModeS" Elevation="3480" MaxRange="256">
+    <Lat>+27.4198</Lat>
+    <Long>+41.6909</Long>
+  </Radar>
+  <Radar Name="Harad" Type="SSR_ModeC" Elevation="1100" MaxRange="256">
+    <Lat>+24.1034</Lat>
+    <Long>+49.2099</Long>
+  </Radar>
+  <Radar Name="Jeddah-1" Type="SSR_ModeS" Elevation="170" MaxRange="256">
+    <Lat>+21.7135</Lat>
+    <Long>+39.1524</Long>
+  </Radar>
+  <Radar Name="Jeddah-2" Type="SSR_ModeC" Elevation="650" MaxRange="256">
+    <Lat>+21.6613</Lat>
+    <Long>+39.2221</Long>
+  </Radar>
+  <Radar Name="Khaibar" Type="SSR_ModeC" Elevation="2700" MaxRange="256">
+    <Lat>+25.6980</Lat>
+    <Long>+39.2976</Long>
+  </Radar>
+  <Radar Name="Medina" Type="SSR_ModeS" Elevation="2400" MaxRange="256">
+    <Lat>+24.5763</Lat>
+    <Long>+39.7129</Long>
+  </Radar>
+  <Radar Name="Rafha" Type="SSR_ModeC" Elevation="1600" MaxRange="256">
+    <Lat>+29.6224</Lat>
+    <Long>+43.4941</Long>
+  </Radar>
+  <Radar Name="Riyadh" Type="SSR_ModeS" Elevation="2300" MaxRange="256">
+    <Lat>+24.9832</Lat>
+    <Long>+46.7149</Long>
+  </Radar>
+  <Radar Name="Shaiba" Type="SSR_ModeC" Elevation="570" MaxRange="256">
+    <Lat>+22.5396</Lat>
+    <Long>+53.9589</Long>
+  </Radar>
+  <Radar Name="Sharurah" Type="SSR_ModeC" Elevation="2450" MaxRange="256">
+    <Lat>+17.4693</Lat>
+    <Long>+47.0996</Long>
+  </Radar>
+  <Radar Name="Tabuk" Type="SSR_ModeS" Elevation="2660" MaxRange="256">
+    <Lat>+28.3832</Lat>
+    <Long>+36.5974</Long>
+  </Radar>
+  <Radar Name="Turaif" Type="SSR_ModeC" Elevation="2950" MaxRange="256">
+    <Lat>+31.6856</Lat>
+    <Long>+38.7445</Long>
+  </Radar>
+  <Radar Name="Wadi Al Dawasir" Type="SSR_ModeC" Elevation="3250" MaxRange="256">
+    <Lat>+20.1434</Lat>
+    <Long>+45.1343</Long>
+  </Radar>
+  <Radar Name="Wejh" Type="SSR_ModeC" Elevation="200" MaxRange="256">
+    <Lat>+26.1929</Lat>
+    <Long>+36.4850</Long>
   </Radar>
 
-  <!-- ADSB Radars-->
+  <!-- OMAE-->
+  <Radar Name="Al Ain 2" Type="PRI" Elevation="866" MaxRange="80">
+    <Lat>+24.2369</Lat>
+    <Long>+55.6020</Long>
+  </Radar>
+  <Radar Name="Dubai" Type="PRI" Elevation="150" MaxRange="80">
+    <Lat>+25.2395</Lat>
+    <Long>+55.4030</Long>
+  </Radar>
+  <Radar Name="Abu Dhabi-1" Type="SSR_ModeC" Elevation="120" MaxRange="120">
+    <Lat>+24.420336</Lat>
+    <Long>+54.662811</Long>
+  </Radar>
+  <Radar Name="Al Ain-1" Type="SSR_ModeC" Elevation="866" MaxRange="120">
+    <Lat>+24.266723</Lat>
+    <Long>+55.606651</Long>
+  </Radar>
+  <Radar Name="Al Ain-2" Type="SSR_ModeS" Elevation="866" MaxRange="250">
+    <Lat>+24.236904</Lat>
+    <Long>+55.601971</Long>
+  </Radar>
+  <Radar Name="Al-Maktoum" Type="SSR_ModeC" Elevation="200" MaxRange="250">
+    <Lat>+24.899690</Lat>
+    <Long>+55.163160</Long>
+  </Radar>
+  <Radar Name="Dubai-1" Type="SSR_ModeS" Elevation="150" MaxRange="256">
+    <Lat>+25.239452</Lat>
+    <Long>+55.402999</Long>
+  </Radar>
+  <Radar Name="Ras Al-Khaimah" Type="SSR_ModeC" Elevation="4928" MaxRange="250">
+    <Lat>+25.648735</Lat>
+    <Long>+56.128671</Long>
+  </Radar>
+  <Radar Name="Sharjah" Type="SSR_ModeC" Elevation="62" MaxRange="250">
+    <Lat>+25.329167</Lat>
+    <Long>+55.516111</Long>
+  </Radar>
+  <Radar Name="Tarif" Type="SSR_ModeC" Elevation="100" MaxRange="250">
+    <Lat>+24.055341</Lat>
+    <Long>+53.759998</Long>
+  </Radar>
 
-  <Radar Name="Atbara" Type="ADSB" Elevation="1198" MaxRange="250">
-    <Lat>17.710833</Lat>
-    <Long>+034.054722</Long>
+  <!-- OBBB-->
+  <Radar Name="Bahrain MSSR" Type="SSR_ModeC" Elevation="120" MaxRange="240">
+    <Lat>26.2769</Lat>
+    <Long>50.6314</Long>
   </Radar>
-  <Radar Name="Merowe" Type="ADSB" Elevation="899" MaxRange="250">
-    <Lat>18.443939</Lat>
-    <Long>+031.838631</Long>
+  <Radar Name="Bahrain" Type="PRI" Elevation="120" MaxRange="80">
+    <Lat>26.2668</Lat>
+    <Long>50.6460</Long>
   </Radar>
-  <Radar Name="Nyala" Type="ADSB" Elevation="2095" MaxRange="250">
-    <Lat>+12.053639</Lat>
-    <Long>+024.951639</Long>
+  <Radar Name="Bahrain" Type="SSR_ModeS" Elevation="120" MaxRange="256">
+    <Lat>26.2668</Lat>
+    <Long>50.6460</Long>
   </Radar>
-  <Radar Name="Juba" Type="ADSB" Elevation="1551" MaxRange="250">
-    <Lat>04.875953</Lat>
-    <Long>+031.599675</Long>
+  <Radar Name="Doha-1 PSR/SSR" Type="PRI" Elevation="150" MaxRange="80">
+    <Lat>25.2389</Lat>
+    <Long>51.5978</Long>
   </Radar>
-  <Radar Name="Wau" Type="ADSB" Elevation="1729" MaxRange="250">
-    <Lat>07.725800</Lat>
-    <Long>+027.1224005</Long>
+  <Radar Name="Doha-1" Type="SSR_ModeS" Elevation="150" MaxRange="200">
+    <Lat>25.2389</Lat>
+    <Long>51.5978</Long>
   </Radar>
+  <Radar Name="Doha-2" Type="SSR_ModeC" Elevation="150" MaxRange="200">
+    <Lat>25.2616</Lat>
+    <Long>51.5746</Long>
+  </Radar>
+
+  <!-- OTDF-->
+  <Radar Name="Doha" Type="PRI" Elevation="62" MaxRange="80">
+    <Lat>25.2389</Lat>
+    <Long>51.5978</Long>
+  </Radar>
+
+
+  <!-- OKAC-->
+  <Radar Name="Kuwait" Type="PRI" Elevation="236" MaxRange="80">
+    <Lat>29.2193</Lat>
+    <Long>47.9559</Long>
+  </Radar>
+  <Radar Name="Kuwait" Type="SSR_ModeS" Elevation="236" MaxRange="250">
+    <Lat>29.2186</Lat>
+    <Long>47.9665</Long>
+  </Radar>
+
+  <!-- OOMM-->
+  <Radar Name="Adam" Type="SSR_ModeC" Elevation="1160" MaxRange="250">
+    <Lat>22.4892</Lat>
+    <Long>57.3553</Long>
+  </Radar>
+  <Radar Name="Al Hadd" Type="SSR_ModeC" Elevation="150" MaxRange="250">
+    <Lat>22.2217</Lat>
+    <Long>59.8001</Long>
+  </Radar>
+  <Radar Name="Dukhum" Type="SSR_ModeC" Elevation="170" MaxRange="250">
+    <Lat>19.4990</Lat>
+    <Long>57.6238</Long>
+  </Radar>
+  <Radar Name="Muscat" Type="PRI" Elevation="100" MaxRange="100">
+    <Lat>23.6127</Lat>
+    <Long>58.2869</Long>
+  </Radar>
+  <Radar Name="Muscat" Type="SSR_ModeS" Elevation="100" MaxRange="250">
+    <Lat>23.6127</Lat>
+    <Long>58.2869</Long>
+  </Radar>
+  <Radar Name="Qaran Hairiti" Type="SSR_ModeC" Elevation="100" MaxRange="250">
+    <Lat>17.2934</Lat>
+    <Long>54.0801</Long>
+  </Radar>
+  <Radar Name="Salalah-1" Type="PRI" Elevation="100" MaxRange="100">
+    <Lat>17.0280</Lat>
+    <Long>54.1055</Long>
+  </Radar>
+  <Radar Name="Salalah-2" Type="SSR_ModeS" Elevation="100" MaxRange="250">
+    <Lat>17.0280</Lat>
+    <Long>54.1055</Long>
+  </Radar>
+  <Radar Name="Widam" Type="SSR_ModeC" Elevation="100" MaxRange="250">
+    <Lat>17.0280</Lat>
+    <Long>54.1055</Long>
+  </Radar>
+
+  <!-- ORBB-->
+  <Radar Name="Baghdad" Type="PRI" Elevation="100" MaxRange="54">
+    <Lat>33.2636</Lat>
+    <Long>44.2258</Long>
+  </Radar>
+  <Radar Name="Baghdad" Type="SSR_ModeS" Elevation="100" MaxRange="242">
+    <Lat>33.2636</Lat>
+    <Long>44.2258</Long>
+  </Radar>
+  <Radar Name="Basrah" Type="PRI" Elevation="100" MaxRange="54">
+    <Lat>30.5475</Lat>
+    <Long>47.6578</Long>
+  </Radar>
+  <Radar Name="Basrah" Type="SSR_ModeS" Elevation="100" MaxRange="242">
+    <Lat>30.5475</Lat>
+    <Long>47.6578</Long>
+  </Radar>
+  <Radar Name="Kirkuk" Type="PRI" Elevation="1100" MaxRange="54">
+    <Lat>35.4683</Lat>
+    <Long>44.3303</Long>
+  </Radar>
+  <Radar Name="Kirkuk" Type="SSR_ModeS" Elevation="1100" MaxRange="242">
+    <Lat>35.4683</Lat>
+    <Long>44.3303</Long>
+  </Radar>
+
+  <!-- OLBB-->
+  <Radar Name="Beirut" Type="PRI" Elevation="85" MaxRange="35">
+    <Lat>33.8309</Lat>
+    <Long>35.4971</Long>
+  </Radar>
+  <Radar Name="Beirut" Type="SSR_ModeS" Elevation="35" MaxRange="256">
+    <Lat>33.8309</Lat>
+    <Long>35.4971</Long>
+  </Radar>
+
+  <!-- OJAC-->
+  <Radar Name="Amman" Type="PRI" Elevation="2624" MaxRange="80">
+    <Lat>31.7509</Lat>
+    <Long>36.0132</Long>
+  </Radar>
+  <Radar Name="Aqaba" Type="PRI" Elevation="21" MaxRange="70">
+    <Lat>29.6095</Lat>
+    <Long>35.0209</Long>
+  </Radar>
+  <Radar Name="Aqaba" Type="SSR_ModeS" Elevation="258" MaxRange="256">
+    <Lat>30.2265</Lat>
+    <Long>35.2037</Long>
+  </Radar>
+
+  <!-- OIIX-->
+  <Radar Name="Esfahan" Type="PRI" Elevation="5073" MaxRange="80">
+    <Lat>32.747020</Lat>
+    <Long>51.828700</Long>
+  </Radar>
+  <Radar Name="Esfahan" Type="SSR_ModeS" Elevation="5073" MaxRange="256">
+    <Lat>32.747020</Lat>
+    <Long>51.828700</Long>
+  </Radar>
+
+  <Radar Name="Mashhad" Type="PRI" Elevation="3238" MaxRange="80">
+    <Lat>36.237767</Lat>
+    <Long>59.651255</Long>
+  </Radar>
+  <Radar Name="Mashhad" Type="SSR_ModeS" Elevation="3238" MaxRange="256">
+    <Lat>36.237767</Lat>
+    <Long>59.651255</Long>
+  </Radar>
+  <Radar Name="Shiraz" Type="PRI" Elevation="4872" MaxRange="80">
+    <Lat>29.541192</Lat>
+    <Long>52.600954</Long>
+  </Radar>
+  <Radar Name="Shiraz" Type="SSR_ModeS" Elevation="4872" MaxRange="256">
+    <Lat>29.541192</Lat>
+    <Long>52.600954</Long>
+  </Radar>
+  <Radar Name="Tehran (Imam Khomaini)" Type="PRI" Elevation="3282" MaxRange="80">
+    <Lat>35.410721</Lat>
+    <Long>51.153598</Long>
+  </Radar>
+  <Radar Name="Tehran (Imam Khomaini)" Type="SSR_ModeS" Elevation="3282" MaxRange="256">
+    <Lat>35.410721</Lat>
+    <Long>51.153598</Long>
+  </Radar>
+
+  <Radar Name="Ahwaz" Type="SSR_ModeC" Elevation="5269" MaxRange="256">
+    <Lat>36.238607</Lat>
+    <Long>46.417950</Long>
+  </Radar>
+
+  <Radar Name="Gorgan" Type="SSR_ModeC" Elevation="-87" MaxRange="256">
+    <Lat>37.091545</Lat>
+    <Long>54.123663</Long>
+  </Radar>
+
+  <Radar Name="Jiroft" Type="SSR_ModeC" Elevation="3410" MaxRange="256">
+    <Lat>33.888250</Lat>
+    <Long>51.626025</Long>
+  </Radar>
+
+  <Radar Name="Kish" Type="SSR_ModeC" Elevation="108" MaxRange="256">
+    <Lat>26.543823</Lat>
+    <Long>53.996807</Long>
+  </Radar>
+
+  <Radar Name="Kushk" Type="SSR_ModeC" Elevation="2939" MaxRange="256">
+    <Lat>34.968196</Lat>
+    <Long>50.816327</Long>
+  </Radar>
+
+  <Radar Name="Lar" Type="SSR_ModeC" Elevation="2620" MaxRange="256">
+    <Lat>27.664433</Lat>
+    <Long>54.397469</Long>
+  </Radar>
+
+  <Radar Name="Tabas" Type="SSR_ModeC" Elevation="2777" MaxRange="256">
+    <Lat>33.670508</Lat>
+    <Long>56.894359</Long>
+  </Radar>
+
+  <Radar Name="Tabriz" Type="SSR_ModeC" Elevation="4420" MaxRange="256">
+    <Lat>38.133492</Lat>
+    <Long>46.223759</Long>
+  </Radar>
+
+  <Radar Name="Zanjan" Type="SSR_ModeC" Elevation="5289" MaxRange="256">
+    <Lat>36.776479</Lat>
+    <Long>48.338095</Long>
+  </Radar>
+
+
+  <!-- HECC-->
+  <Radar Name="Cairo" Type="PRI" Elevation="362" MaxRange="80">
+    <Lat>30.091921</Lat>
+    <Long>31.380485</Long>
+  </Radar>
+  <Radar Name="Cairo" Type="SSR_ModeS" Elevation="362" MaxRange="256">
+    <Lat>30.091921</Lat>
+    <Long>31.380485</Long>
+  </Radar>
+  <Radar Name="Aswan" Type="SSR_ModeC" Elevation="644" MaxRange="256">
+    <Lat>23.950751</Lat>
+    <Long>32.841364</Long>
+  </Radar>
+  <Radar Name="Marsa Mutrah" Type="SSR_ModeC" Elevation="85" MaxRange="256">
+    <Lat>31.338395</Lat>
+    <Long>27.225920</Long>
+  </Radar>
+  <Radar Name="Alexanderia" Type="SSR_ModeC" Elevation="-8" MaxRange="256">
+    <Lat>31.181612</Lat>
+    <Long>29.953404</Long>
+  </Radar>
+  <Radar Name="Assuit" Type="SSR_ModeC" Elevation="783" MaxRange="0">
+    <Lat>27.041288</Lat>
+    <Long>30.970185</Long>
+  </Radar>
+  <Radar Name="Sharm" Type="SSR_ModeC" Elevation="66" MaxRange="256">
+    <Lat>28.004484</Lat>
+    <Long>34.431185</Long>
+  </Radar>
+  <Radar Name="Daklha" Type="SSR_ModeC" Elevation="578" MaxRange="256">
+    <Lat>25.414943</Lat>
+    <Long>+028.993051</Long>
+  </Radar>
+
+  <!-- OSTT-->
+  <Radar Name="Aleppo Intl. Airport" Type="PRI" Elevation="1276" MaxRange="60">
+    <Lat>36.176389</Lat>
+    <Long>37.238889</Long>
+  </Radar>
+  <Radar Name="Aleppo Intl. Airport" Type="SSR_ModeS" Elevation="1276" MaxRange="220">
+    <Lat>36.176389</Lat>
+    <Long>37.238889</Long>
+  </Radar>
+  <Radar Name="Basel Al Assad Intl. Airport" Type="PRI" Elevation="157" MaxRange="60">
+    <Lat>35.402778</Lat>
+    <Long>35.952500</Long>
+  </Radar>
+  <Radar Name="Basel Al Assad Intl. Airport" Type="SSR_ModeS" Elevation="157" MaxRange="220">
+    <Lat>35.402778</Lat>
+    <Long>35.952500</Long>
+  </Radar>
+  <Radar Name="Damascus Intl. Airport" Type="PRI" Elevation="1990" MaxRange="60">
+    <Lat>33.427222</Lat>
+    <Long>36.528611</Long>
+  </Radar>
+  <Radar Name="Damascus Intl. Airport" Type="SSR_ModeS" Elevation="1990" MaxRange="180">
+    <Lat>33.427222</Lat>
+    <Long>36.528611</Long>
+  </Radar>
+
+  <!-- OSYC-->
+  <Radar Name="Sanaa" Type="ADSB" Elevation="7209" MaxRange="250">
+    <Lat>15.475644</Lat>
+    <Long>44.224916</Long>
+  </Radar>
+  <Radar Name="Socarta" Type="ADSB" Elevation="122" MaxRange="250">
+    <Lat>+12.623881</Lat>
+    <Long>+053.906020</Long>
+  </Radar>
+
 </Radars>

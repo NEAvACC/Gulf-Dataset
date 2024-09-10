@@ -3,21 +3,719 @@
   <!-- ACC -->
 
   <Sector Name="GULF" FullName="Gulf" Frequency="133.650" Callsign="GULF_FSS">
-    <Volumes></Volumes>
+    <Volumes>GULF</Volumes>
   </Sector>
   <Sector Name="GULE" FullName="Gulf East" Frequency="133.600" Callsign="GULF_E_FSS">
-    <Volumes></Volumes>
+    <Volumes>GULF_E</Volumes>
   </Sector>
   <Sector Name="GULW" FullName="Gulf West" Frequency="133.500" Callsign="GULF_W_FSS">
-    <Volumes></Volumes>
+    <Volumes>GULF_W</Volumes>
   </Sector>
 
   <!-- Nearby FIRs  -->
-  <Sector FullName="Brazzaville" Frequency="127.100" Callsign="FCCC_CTR" Name="BRAZ"
+  <Sector FullName="Africa East" Frequency="135.050" Callsign="AFRE_FSS" Name="AFRE"
+    DisplayInSectorsWindow="False">
+    <Volumes>AFRE</Volumes>
+  </Sector>
+  <Sector FullName="Africa North" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN"
+    DisplayInSectorsWindow="False">
+    <Volumes>AFRN</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="127.850" Callsign="ANK_10_CTR" Name="AN10"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="127.925" Callsign="ANK_11_CTR" Name="AN11"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="133.550" Callsign="ANK_12_CTR" Name="AN12"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="128.450" Callsign="ANK_13_CTR" Name="AN13"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="128.650" Callsign="ANK_14_CTR" Name="AN14"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="128.750" Callsign="ANK_15_CTR" Name="AN15"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="128.800" Callsign="ANK_16_CTR" Name="AN16"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="129.300" Callsign="ANK_17_CTR" Name="AN17"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="129.450" Callsign="ANK_18_CTR" Name="AN18"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="130.125" Callsign="ANK_19_CTR" Name="AN19"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="124.125" Callsign="ANK_7_CTR" Name="ANK7"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="125.950" Callsign="ANK_8_CTR" Name="ANK8"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="126.250" Callsign="ANK_9_CTR" Name="ANK9"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="133.675" Callsign="ANK_A_CTR" Name="ANCA"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="129.425" Callsign="ANK_CTR" Name="ANKR"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="119.425" Callsign="ANK_C_CTR" Name="ANKC"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="122.275" Callsign="ANK_EN_CTR" Name="ANEN"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="124.075" Callsign="ANK_ES_CTR" Name="ANES"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="121.450" Callsign="ANK_E_CTR" Name="ANKE"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="118.550" Callsign="ANK_N_CTR" Name="ANKN"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="Ankara" Frequency="120.275" Callsign="ANK_S_CTR" Name="ANKS"
+    DisplayInSectorsWindow="False">
+    <Volumes>LTAA</Volumes>
+  </Sector>
+  <Sector FullName="West Asia " Frequency="135.400" Callsign="ASIA_W_FSS" Name="ASIW"
+    DisplayInSectorsWindow="False">
+    <Volumes>ASIW</Volumes>
+  </Sector>
+  <Sector FullName="EuroSouth" Frequency="135.250" Callsign="EUC-SE_CTR" Name="EUSE"
+    DisplayInSectorsWindow="False">
+    <Volumes>EURS</Volumes>
+  </Sector>
+  <Sector FullName="Addis" Frequency="125.100" Callsign="HAAA_1_CTR" Name="ADDW"
+    DisplayInSectorsWindow="False">
+    <Volumes>HAAA</Volumes>
+  </Sector>
+  <Sector FullName="Addis" Frequency="125.200" Callsign="HAAA_2_CTR" Name="ADDE"
+    DisplayInSectorsWindow="False">
+    <Volumes>HAAA</Volumes>
+  </Sector>
+  <Sector FullName="Mogadishu " Frequency="132.500" Callsign="HCSM_CTR" Name="MOGD"
+    DisplayInSectorsWindow="False">
+    <Volumes>HCSM</Volumes>
+  </Sector>
+  <Sector FullName="Mogadishu" Frequency="132.525" Callsign="HCSM_I_CTR" Name="MOGI"
+    DisplayInSectorsWindow="False">
+    <Volumes>HCSM</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="128.725" Callsign="HECC_1X_CTR" Name="CA1X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="127.700" Callsign="HECC_1_CTR" Name="CAI1"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="126.725" Callsign="HECC_2X_CTR" Name="CA2X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="124.700" Callsign="HECC_2_CTR" Name="CAI2"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="123.050" Callsign="HECC_3X_CTR" Name="CA3X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="126.600" Callsign="HECC_3_CTR" Name="CAI3"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="129.450" Callsign="HECC_46_CTR" Name="CA46"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="129.700" Callsign="HECC_4X_CTR" Name="CA4X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="132.200" Callsign="HECC_4_CTR" Name="CAI4"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="134.500" Callsign="HECC_5X_CTR" Name="CA5X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo " Frequency="130.900" Callsign="HECC_5_CTR" Name="CAI5"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="124.575" Callsign="HECC_6X_CTR" Name="CA6X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="129.400" Callsign="HECC_6_CTR" Name="CAI6"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="134.400" Callsign="HECC_A_CTR" Name="CAIA"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="127.700" Callsign="HECC_CTR" Name="CAIR"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Cairo" Frequency="125.175" Callsign="HECC_C_CTR" Name="CAIC"
+    DisplayInSectorsWindow="False">
+    <Volumes>HECC</Volumes>
+  </Sector>
+  <Sector FullName="Asmara" Frequency="129.500" Callsign="HHAA_1_CTR" Name="ASMR"
+    DisplayInSectorsWindow="False">
+    <Volumes>HHAA</Volumes>
+  </Sector>
+  <Sector FullName="Tripoli" Frequency="120.900" Callsign="HLLL_CTR" Name="TRIL"
+    DisplayInSectorsWindow="False">
+    <Volumes>HLLL</Volumes>
+  </Sector>
+  <Sector FullName="Tripoli" Frequency="128.400" Callsign="HLLL_S_CTR" Name="TRIS"
+    DisplayInSectorsWindow="False">
+    <Volumes>HLLL</Volumes>
+  </Sector>
+  <Sector FullName="Khartoum" Frequency="125.400" Callsign="HSSS_1X_CTR" Name="KR1X"
+    DisplayInSectorsWindow="False">
+    <Volumes>HSSS</Volumes>
+  </Sector>
+  <Sector FullName="Khartoum" Frequency="127.500" Callsign="HSSS_1_CTR" Name="KRTN"
+    DisplayInSectorsWindow="False">
+    <Volumes>HSSS</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="124.200" Callsign="LCCC_CTR" Name="NICO"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="127.075" Callsign="LCCC_EL_CTR" Name="NILE"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="126.300" Callsign="LCCC_E_CTR" Name="NICE"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="128.600" Callsign="LCCC_S1_CTR" Name="NIS1"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="129.550" Callsign="LCCC_S2_CTR" Name="NIS2"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="128.075" Callsign="LCCC_WL_CTR" Name="NIWL"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Nicosia" Frequency="125.500" Callsign="LCCC_W_CTR" Name="NICW"
+    DisplayInSectorsWindow="False">
+    <Volumes>LCCC</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="129.675" Callsign="LGGG_CTR" Name="ATHI"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="119.750" Callsign="LGGG_FSS" Name="ATFS"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="123.725" Callsign="LGGG_KAV_CTR" Name="ATKV"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="133.725" Callsign="LGGG_KFN_CTR" Name="ATEN"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="125.985" Callsign="LGGG_KFU_CTR" Name="ATKF"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="134.325" Callsign="LGGG_KRK_CTR" Name="ATKR"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="131.330" Callsign="LGGG_KRU_CTR" Name="ATRU"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="125.200" Callsign="LGGG_MIL_CTR" Name="ATMI"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="123.830" Callsign="LGGG_MLU_CTR" Name="ATMC"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="124.625" Callsign="LGGG_PLH_CTR" Name="ATPL"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="133.325" Callsign="LGGG_RDS_CTR" Name="ATRD"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="126.125" Callsign="LGGG_RDU_CTR" Name="ATRU"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="127.975" Callsign="LGGG_SIT_CTR" Name="ATSI"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Athinai" Frequency="135.875" Callsign="LGGG_U_CTR" Name="ATIU"
+    DisplayInSectorsWindow="False">
+    <Volumes>LGGG</Volumes>
+  </Sector>
+  <Sector FullName="Hagav" Frequency="128.350" Callsign="LLGV_CTR" Name="LLGV"
+    DisplayInSectorsWindow="False">
+    <Volumes>LLLL</Volumes>
+  </Sector>
+  <Sector FullName="Hagav" Frequency="128.350" Callsign="LLGV_N_CTR" Name="LLGN"
+    DisplayInSectorsWindow="False">
+    <Volumes>LLLL</Volumes>
+  </Sector>
+  <Sector FullName="Hagav" Frequency="121.150" Callsign="LLGV_S_CTR" Name="LLGS"
+    DisplayInSectorsWindow="False">
+    <Volumes>LLLL</Volumes>
+  </Sector>
+  <Sector FullName="Tel Aviv" Frequency="121.400" Callsign="LLLL_CTR" Name="TELV"
+    DisplayInSectorsWindow="False">
+    <Volumes>LLLL</Volumes>
+  </Sector>
+  <Sector FullName="Tel Aviv" Frequency="120.900" Callsign="LLSC_CTR" Name="TLVS"
+    DisplayInSectorsWindow="False">
+    <Volumes>LLLL</Volumes>
+  </Sector>
+  <Sector FullName="Kabul" Frequency="128.500" Callsign="OAKX_CTR" Name="KABL"
+    DisplayInSectorsWindow="False">
+    <Volumes>OAKX</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="127.525" Callsign="OBBB_1_CTR" Name="BAHR"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="132.125" Callsign="OBBB_2_CTR" Name="BAH2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="127.575" Callsign="OBBB_3_CTR" Name="BAH3"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="124.300" Callsign="OBBB_CH_CTR" Name="BACH"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="122.300" Callsign="OBBB_CL_CTR" Name="BACL"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="132.850" Callsign="OBBB_E_CTR" Name="BAHE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="127.525" Callsign="OBBB_FM_CTR" Name="BAFM"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Bahrain" Frequency="126.700" Callsign="OBBB_N_CTR" Name="BAHN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OBBB,OBBB_S</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="126.500" Callsign="OEJD_1_CTR" Name="JED1"
     DisplayInSectorsWindow="False">
     <Volumes></Volumes>
   </Sector>
-
-
+  <Sector FullName="Jeddah" Frequency="133.900" Callsign="OEJD_2_CTR" Name="JED2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="133.300" Callsign="OEJD_3_CTR" Name="JED3"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="126.550" Callsign="OEJD_C_CTR" Name="JEDC"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="134.400" Callsign="OEJD_E_CTR" Name="JEDE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="127.650" Callsign="OEJD_NE_CTR" Name="JENE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="128.750" Callsign="OEJD_N_CTR" Name="JEDN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="134.500" Callsign="OEJD_SE_CTR" Name="JESE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="132.100" Callsign="OEJD_S_CTR" Name="JEDS"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="127.750" Callsign="OEJD_U_CTR" Name="JEDU"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="132.300" Callsign="OEJD_W1_CTR" Name="JEW1"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="132.600" Callsign="OEJD_W2_CTR" Name="JEW2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah" Frequency="133.700" Callsign="OEJD_W_CTR" Name="JEDW"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah Terminal" Frequency="125.450" Callsign="OEJN_1_CTR" Name="JEDT"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Jeddah Terminal" Frequency="119.100" Callsign="OEJN_2_CTR" Name="JEDL"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Riyadh" Frequency="132.500" Callsign="OERD_1_CTR" Name="RUHD"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Riyadh" Frequency="132.950" Callsign="OERD_E_CTR" Name="RUHD"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Riyadh" Frequency="132.250" Callsign="OERD_NE_CTR" Name="RUNE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Riyadh" Frequency="134.800" Callsign="OERD_N_CTR" Name="RUHN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Riyadh" Frequency="121.550" Callsign="OERK_1_CTR" Name="RUHL"
+    DisplayInSectorsWindow="False">
+    <Volumes>OEJD</Volumes>
+  </Sector>
+  <Sector FullName="Amman" Frequency="128.500" Callsign="OJAC_CTR" Name="AMMN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OJAC</Volumes>
+  </Sector>
+  <Sector FullName="Kuwait" Frequency="125.300" Callsign="OKAC_CTR" Name="KWAI"
+    DisplayInSectorsWindow="False">
+    <Volumes>OKAC</Volumes>
+  </Sector>
+  <Sector FullName="Beirut" Frequency="119.300" Callsign="OLBB_CTR" Name="BURI"
+    DisplayInSectorsWindow="False">
+    <Volumes>OLBB</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="132.150" Callsign="OMAE_1_CTR" Name="UAE1"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="128.250" Callsign="OMAE_2_CTR" Name="UAE2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="124.375" Callsign="OMAE_3_CTR" Name="UAE3"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="132.550" Callsign="OMAE_4_CTR" Name="UAE4"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="120.900" Callsign="OMAE_D_CTR" Name="UAED"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="125.375" Callsign="OMAE_E_CTR" Name="UAEE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="132.150" Callsign="OMAE_FM_CTR" Name="UAFM"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="120.525" Callsign="OMAE_G_CTR" Name="UAEG"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="128.125" Callsign="OMAE_H_CTR" Name="UAEH"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="129.500" Callsign="OMAE_L_CTR" Name="UAEL"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="124.850" Callsign="OMAE_R_CTR" Name="UAER"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="119.300" Callsign="OMAE_W_CTR" Name="UAEW"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="U.A.E" Frequency="118.925" Callsign="OMAE_Y_CTR" Name="UAEY"
+    DisplayInSectorsWindow="False">
+    <Volumes>OMAE</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="135.600" Callsign="OOMM_A_CTR" Name="MCTA"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="126.550" Callsign="OOMM_B_CTR" Name="MCTB"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="124.700" Callsign="OOMM_C_CTR" Name="MCTC"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="118.325" Callsign="OOMM_M_CTR" Name="MCTM"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="128.150" Callsign="OOMM_N_CTR" Name="MCTN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="123.950" Callsign="OOMM_S_CTR" Name="MCTS"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Muscat" Frequency="119.800" Callsign="OOMM_W_CTR" Name="MCTW"
+    DisplayInSectorsWindow="False">
+    <Volumes>OOMM</Volumes>
+  </Sector>
+  <Sector FullName="Karachi" Frequency="133.200" Callsign="OPKR-E_CTR" Name="KARE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OPKR</Volumes>
+  </Sector>
+  <Sector FullName="Karachi" Frequency="132.100" Callsign="OPKR-S_CTR" Name="KRAS"
+    DisplayInSectorsWindow="False">
+    <Volumes>OPKR</Volumes>
+  </Sector>
+  <Sector FullName="Karachi" Frequency="128.350" Callsign="OPKR-W_CTR" Name="KARW"
+    DisplayInSectorsWindow="False">
+    <Volumes>OPKR</Volumes>
+  </Sector>
+  <Sector FullName="Karachi" Frequency="126.500" Callsign="OPKR_CTR" Name="KRAC"
+    DisplayInSectorsWindow="False">
+    <Volumes>OPKR</Volumes>
+  </Sector>
+  <Sector FullName="Baghdad" Frequency="132.875" Callsign="ORBB_N_CTR" Name="BAGN"
+    DisplayInSectorsWindow="False">
+    <Volumes>ORBB</Volumes>
+  </Sector>
+  <Sector FullName="Baghdad" Frequency="123.000" Callsign="ORBB_S_CTR" Name="BAHGS"
+    DisplayInSectorsWindow="False">
+    <Volumes>ORBB</Volumes>
+  </Sector>
+  <Sector FullName="Baghdad" Frequency="125.900" Callsign="ORBB_U_CTR" Name="BAGC"
+    DisplayInSectorsWindow="False">
+    <Volumes>ORBB</Volumes>
+  </Sector>
+  <Sector FullName="Baghdad" Frequency="127.100" Callsign="ORBB_V_CTR" Name="BAGV"
+    DisplayInSectorsWindow="False">
+    <Volumes>ORBB</Volumes>
+  </Sector>
+  <Sector FullName="Damascus" Frequency="129.600" Callsign="OSTT_CTR" Name="DAMM"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTTS</Volumes>
+  </Sector>
+  <Sector FullName="Doha" Frequency="133.725" Callsign="OTDF_1X_CTR" Name="DO1X"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTDF</Volumes>
+  </Sector>
+  <Sector FullName="Doha" Frequency="135.725" Callsign="OTDF_1_CTR" Name="DOHA"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTDF</Volumes>
+  </Sector>
+  <Sector FullName="Doha" Frequency="136.475" Callsign="OTDF_2X_CTR" Name="DO2X"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTDF</Volumes>
+  </Sector>
+  <Sector FullName="Doha" Frequency="132.975" Callsign="OTDF_2_CTR" Name="DOH2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTDF</Volumes>
+  </Sector>
+  <Sector FullName="Doha" Frequency="135.725" Callsign="OTDF_FM_CTR" Name="DOFM"
+    DisplayInSectorsWindow="False">
+    <Volumes>OTDF</Volumes>
+  </Sector>
+  <Sector FullName="Sanaa" Frequency="120.100" Callsign="OYSC_CTR" Name="SANN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OYSC</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="132.500" Callsign="TEH_1E_CTR" Name="TE1E"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="120.950" Callsign="TEH_1N_CTR" Name="TE1N"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="119.250" Callsign="TEH_1W_CTR" Name="TE1W"
+    DisplayInSectorsWindow="False">
+    <Volumes></Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="119.300" Callsign="TEH_1_CTR" Name="TEH1"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="127.800" Callsign="TEH_2E_CTR" Name="TEH2E"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="125.650" Callsign="TEH_2W_CTR" Name="TE2W"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="125.700" Callsign="TEH_2_CTR" Name="TEH2"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="126.850" Callsign="TEH_3N_CTR" Name="TE3N"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="128.750" Callsign="TEH_3S_CTR" Name="TE3S"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="126.900" Callsign="TEH_3_CTR" Name="TEH3"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="133.350" Callsign="TEH_4E_CTR" Name="TE4E"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="134.475" Callsign="TEH_4S_CTR" Name="TE4S"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="132.300" Callsign="TEH_4W_CTR" Name="TE4W"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="133.400" Callsign="TEH_4_CTR" Name="TEH4"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="132.100" Callsign="TEH_5E_CTR" Name="TE5E"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="120.250" Callsign="TEH_5W_CTR" Name="TE5W"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="120.300" Callsign="TEH_5_CTR" Name="TEH5"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="123.850" Callsign="TEH_6E_CTR" Name="TE6E"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="132.900" Callsign="TEH_6W_CTR" Name="TE62"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="123.900" Callsign="TEH_6_CTR" Name="TEH6"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="120.700" Callsign="TEH_7_CTR" Name="TEH7"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="135.200" Callsign="TEH_CTR" Name="TEHC"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="135.150" Callsign="TEH_E_CTR" Name="TEHE"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="135.000" Callsign="TEH_N_CTR" Name="TEHN"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="135.050" Callsign="TEH_S_CTR" Name="TEHS"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Tehran" Frequency="135.100" Callsign="TEH_W_CTR" Name="TEHW"
+    DisplayInSectorsWindow="False">
+    <Volumes>OIIX</Volumes>
+  </Sector>
+  <Sector FullName="Baku" Frequency="125.500" Callsign="UBBA_CTR" Name="BAKU"
+    DisplayInSectorsWindow="False">
+    <Volumes>UBBA,UBBA-S</Volumes>
+  </Sector>
+  <Sector FullName="Baku" Frequency="133.100" Callsign="UBBA_E_CTR" Name="BAKE"
+    DisplayInSectorsWindow="False">
+    <Volumes>UBBA,UBBA-S</Volumes>
+  </Sector>
+  <Sector FullName="Baku" Frequency="120.800" Callsign="UBBA_S_CTR" Name="BAKS"
+    DisplayInSectorsWindow="False">
+    <Volumes>UBBA,UBBA-S</Volumes>
+  </Sector>
+  <Sector FullName="Baku" Frequency="129.000" Callsign="UBBA_W_CTR" Name="BAKW"
+    DisplayInSectorsWindow="False">
+    <Volumes>UBBA,UBBA-S</Volumes>
+  </Sector>
+  <Sector FullName="Yerevan" Frequency="127.600" Callsign="UDDD_CTR" Name="YARA"
+    DisplayInSectorsWindow="False">
+    <Volumes>UDDD</Volumes>
+  </Sector>
+  <Sector FullName="Turkmenbashi" Frequency="135.800" Callsign="UTAK_CTR" Name="TURK"
+    DisplayInSectorsWindow="False">
+    <Volumes>UTAK</Volumes>
+  </Sector>
+  <Sector FullName="Turkmenabat" Frequency="134.500" Callsign="UTAV_CTR" Name="TURB"
+    DisplayInSectorsWindow="False">
+    <Volumes>UTAK</Volumes>
+  </Sector>
 
 </Sectors>

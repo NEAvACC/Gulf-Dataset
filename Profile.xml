@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Profile Name="VATMENA Gulf" FullName="Gulf FSS Eurocat (HSSS/HJJJ)">
+<Profile Name="Gulf Control" FullName="Gulf Control Eurocat">
 	<Version AIRAC="2408" Revision="A" PublishDate="20240831"
-		UpdateURL="https://github.com/NEAvACC/Khartoum-Dataset/raw/release/Published" />
+		UpdateURL="" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />
